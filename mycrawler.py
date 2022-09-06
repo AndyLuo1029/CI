@@ -1,10 +1,9 @@
 import time
 import csv
-from tkinter import W
 from github import Github, RateLimitExceededException
 
 
-access_token = "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"
+access_token = "your token"
 
 g = Github(login_or_token=access_token,per_page=100)
 
