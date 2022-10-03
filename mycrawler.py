@@ -4,11 +4,11 @@ from github import Github, RateLimitExceededException, GithubException
 from requests import ReadTimeout
 from socket import timeout
 
-access_token = "your token"
+access_token = "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"
 
 g = Github(login_or_token=access_token,per_page=100)
 
-csvfile = open("/root/Juntao/Test_"+time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+".csv","a")
+csvfile = open("/Users/andyluo/Desktop/Test_"+time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+".csv","a")
 w = csv.writer(csvfile)
 # write the head row
 w.writerow(['repo_full_name','id','URL','stars','git_num_commits','git_num_contributors',
@@ -16,7 +16,8 @@ w.writerow(['repo_full_name','id','URL','stars','git_num_commits','git_num_contr
 'pr_num','archived','default_branch','forks','forks_count','has_downloads','has_issues','has_pages',
 'has_projects','has_wiki','homepage','network_count','open_issues','open_issues_count','organization_name',
 'owner_name','parent_name','permissions_admin','permissions_maintain','permissions_pull','permissions_push',
-'permissions_triage','private','pushed_at','size','source_name','subscribers_count','updated_at','watchers','watchers_count'])
+'permissions_triage','private','pushed_at','size','source_name','subscribers_count','updated_at','watchers',
+'watchers_count','clone_url'])
 
 def get_repos(token,stars,round):
     global g,w
@@ -24,7 +25,7 @@ def get_repos(token,stars,round):
         # get top 10,000 popular repos  
         # while round < 10:
         flag_timeout = 0
-        q = "stars:1.."+str(stars)
+        q = "stars:<="+str(stars)
         repos = g.search_repositories(query=q,sort="stars",order="desc")
         print('Get repos succefully, now in round:'+str(round))
 
@@ -43,7 +44,7 @@ def get_repos(token,stars,round):
             repo.get_pulls().totalCount,repo.archived,repo.default_branch,repo.forks,repo.forks_count,repo.has_downloads,repo.has_issues,repo.has_pages,
             repo.has_projects,repo.has_wiki,repo.homepage,repo.network_count,repo.open_issues,repo.open_issues_count,org_name,owner_name,parent_name,repo.permissions.admin,
             repo.permissions.maintain,repo.permissions.pull,repo.permissions.push,repo.permissions.triage,repo.private,repo.pushed_at,repo.size,source_name,repo.subscribers_count,
-            repo.updated_at,repo.watchers,repo.watchers_count]
+            repo.updated_at,repo.watchers,repo.watchers_count,repo.clone_url]
             print("writing:"+str(cnt))
             w.writerow(reco)
             cnt += 1
@@ -61,7 +62,7 @@ def get_repos(token,stars,round):
         print(time.strftime("[%H:%M] Get back to work!", time.localtime()))
         w.writerow(['!!!']) 
         return get_repos(token,stars,round)
-    except (ReadTimeout, timeout) as e:
+    except (ReadTimeout, timeout, ReadTimeoutError) as e:
         flag_timeout+=1
         if flag_timeout==5:
             print("Please check network connection.")
