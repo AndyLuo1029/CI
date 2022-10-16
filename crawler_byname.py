@@ -44,8 +44,14 @@ def get_repo():
             owner_name = 'NoneType' if(str(type(repo.owner))=="<class \'NoneType\'>") else repo.owner.name
             parent_name = 'NoneType' if(str(type(repo.parent))=="<class \'NoneType\'>") else repo.parent.name
             source_name = 'NoneType' if(str(type(repo.source))=="<class \'NoneType\'>") else repo.source.name
+            
             has_GHA = False
             has_Travis = False
+            has_CircleCI = False
+            has_AppVeyor = False
+            has_Azure = False
+            has_GitLab = False
+            has_Jenkins = False
             try:
                 GHA_Files = repo.get_contents("/.github/workflows")
                 for con in GHA_Files:
@@ -58,6 +64,36 @@ def get_repo():
             try:
                 repo.get_contents("/.travis.yml")
                 has_Travis = True
+            except GithubException as r:
+                pass
+
+            try:
+                repo.get_contents("/.circleci/config.yml")
+                has_CircleCI = True
+            except GithubException as r:
+                pass
+
+            try:
+                repo.get_contents("/appveyor.yml")
+                has_AppVeyor = True
+            except GithubException as r:
+                pass
+
+            try:
+                repo.get_contents("/azure-pipelines.yml")
+                has_Azure = True
+            except GithubException as r:
+                pass
+
+            try:
+                repo.get_contents("/.gitlab-ci.yml")
+                has_GitLab = True
+            except GithubException as r:
+                pass
+
+            try:
+                repo.get_contents("/Jenkinsfile")
+                has_Jenkins = True
             except GithubException as r:
                 pass
 
