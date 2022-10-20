@@ -4,7 +4,7 @@ from github import Github, RateLimitExceededException, GithubException
 from requests import ReadTimeout
 from socket import timeout
 
-access_token = "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"
+access_token = "token"
 
 g = Github(login_or_token=access_token,per_page=100)
 
