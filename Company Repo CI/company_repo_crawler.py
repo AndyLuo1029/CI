@@ -27,7 +27,7 @@ csvfile2 = open("Test/Company_commits"+time.strftime("%Y-%m %H:%M", time.localti
 w1 = csv.writer(csvfile1)
 w2 = csv.writer(csvfile2)
 # write the head row
-w1.writerow(['organization_name','repo_full_name','URL','contributors_num','description','is_fork','repo_updated_at','repo_firstcommit','repo_lastcommit'])
+w1.writerow(['organization_name','repo_full_name','URL','contributors_num','description','is_fork','repo_updated_at','repo_firstcommit','repo_lastcommit','commits_count'])
 w2.writerow(['URL','repo_fullname','file','a_specific_commit','its_commit_date','its_event(File.status)','file_firstcommit','file_lastcommit','file_ci_type'])
 
 def company_repo_crawler(current_comp = "", current_repo_id = -1):
@@ -67,8 +67,9 @@ def company_repo_crawler(current_comp = "", current_repo_id = -1):
                 firstcommit = pg.reversed[0].commit.author.date
                 lastcommit = pg[0].commit.author.date
                 org_name = 'NoneType' if(str(type(repo.organization))=="<class \'NoneType\'>") else repo.organization.name
+                commits_count = 0 if(str(type(repo.get_commits()))=="<class \'NoneType\'>") else repo.get_commits().totalCount
 
-                reco = [org_name,repo.name,repo.url,repo.get_contributors().totalCount,repo.description,repo.fork,repo.updated_at,firstcommit,lastcommit]
+                reco = [org_name,repo.name,repo.url,repo.get_contributors().totalCount,repo.description,repo.fork,repo.updated_at,firstcommit,lastcommit,commits_count]
                 print("writing repos info...")
                 w1.writerow(reco)
 
@@ -101,9 +102,9 @@ def company_repo_crawler(current_comp = "", current_repo_id = -1):
                                             file = f
                                             break
                                     status = 'NoneType' if(str(type(file))=="<class \'NoneType\'>") else file.status
-                                    if(status == "added" or status == "removed" or status == "renamed"):
-                                        w2.writerow([repo.url,repo.name,yml,cm.sha,cm.commit.author.date,status,file_firstcommit,file_lastcommit,'GHA'])
-                                        use_CI = True
+                                    # if(status == "added" or status == "removed" or status == "renamed"):
+                                    w2.writerow([repo.url,repo.name,yml,cm.sha,cm.commit.author.date,status,file_firstcommit,file_lastcommit,'GHA'])
+                                    use_CI = True
                         # break when successfully ran all the code
                         GHA_yml.clear()
                         break
@@ -334,9 +335,9 @@ def six_CI_data(repo,path,filename,CI):
                         file = f
                         break
                 status = 'NoneType' if(str(type(file))=="<class \'NoneType\'>") else file.status
-                if(status == "added" or status == "removed" or status == "renamed"):
-                    w2.writerow([repo.url,repo.name,path,cm.sha,cm.commit.author.date,status,file_firstcommit,file_lastcommit,CI])
-                    use_CI = True
+                # if(status == "added" or status == "removed" or status == "renamed"):
+                w2.writerow([repo.url,repo.name,path,cm.sha,cm.commit.author.date,status,file_firstcommit,file_lastcommit,CI])
+                use_CI = True
             
             return use_CI
         except RateLimitExceededException:
