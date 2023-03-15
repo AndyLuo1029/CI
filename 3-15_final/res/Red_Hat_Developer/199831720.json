@@ -1,0 +1,337 @@
+{
+    "id": 199831720,
+    "name": "quarkus-ls",
+    "full_name": "redhat-developer/quarkus-ls",
+    "org_name": "Red Hat Developer",
+    "org_id": 11033755,
+    "created_at": "2019-07-31T10:12:30",
+    "pushed_at": "2023-03-03T19:15:25",
+    "updated_at": "2023-02-06T20:36:47",
+    "isFork": false,
+    "forks": 14,
+    "forks_count": 14,
+    "has_downloads": true,
+    "has_issues": true,
+    "has_pages": false,
+    "has_projects": true,
+    "has_wiki": true,
+    "homepage": null,
+    "language": "Java",
+    "open_issues": 95,
+    "open_issues_count": 95,
+    "size": 6718,
+    "stargazers_count": 35,
+    "subscribers_count": 12,
+    "watchers": 35,
+    "watchers_count": 35,
+    "first_commit": "2022-03-15T14:39:54",
+    "last_commit": "2023-03-01T15:11:48",
+    "branches_count": 2,
+    "commit_comments_count": 0,
+    "commits_count": 422,
+    "countributors_count": 11,
+    "downloads_count": 0,
+    "events_count": 273,
+    "issues_count": 95,
+    "labels_count": 43,
+    "milestones_count": 1,
+    "PR_count": 411,
+    "open_PR_count": 3,
+    "readme_size": 760,
+    "release_count": 0,
+    "topic_count": 0,
+    "15_commits": 0,
+    "16_commits": 0,
+    "17_commits": 0,
+    "18_commits": 0,
+    "19_commits": 109,
+    "20_commits": 111,
+    "21_commits": 52,
+    "22_commits": 132,
+    "15_committer_num": 0,
+    "16_committer_num": 0,
+    "17_committer_num": 0,
+    "18_committer_num": 0,
+    "19_committer_num": 4,
+    "20_committer_num": 10,
+    "21_committer_num": 5,
+    "22_committer_num": 6
+}{
+    "stargazer_date": {
+        "278153": "2019-08-02T10:36:11",
+        "20326645": "2019-08-28T20:33:06",
+        "1875690": "2019-09-24T05:25:42",
+        "467183": "2019-09-24T08:45:35",
+        "237211": "2019-09-24T09:12:27",
+        "1886883": "2019-09-24T19:05:32",
+        "1883932": "2019-09-29T21:26:31",
+        "125954": "2019-10-18T14:29:36",
+        "12151135": "2019-11-07T00:31:36",
+        "1224205": "2019-11-15T07:18:05",
+        "972959": "2019-12-03T16:01:10",
+        "8839537": "2019-12-05T19:28:57",
+        "6691194": "2019-12-20T16:58:19",
+        "16768710": "2020-03-06T15:39:46",
+        "59932771": "2020-06-28T16:32:55",
+        "195559": "2020-06-29T13:08:08",
+        "15368509": "2020-07-01T01:26:36",
+        "9047770": "2020-07-20T23:02:18",
+        "191879": "2020-07-27T12:53:04",
+        "5099979": "2020-08-02T12:14:40",
+        "2261228": "2021-01-26T16:20:48",
+        "8082252": "2021-10-11T13:25:42",
+        "18682931": "2021-10-15T09:41:23",
+        "5974887": "2021-12-01T20:09:20",
+        "94470949": "2022-01-08T19:16:08",
+        "8938535": "2022-01-21T14:18:51",
+        "15404807": "2022-06-02T07:32:54",
+        "22554": "2022-06-03T12:32:27",
+        "21874": "2022-07-10T10:50:39",
+        "11130248": "2022-07-14T10:41:51",
+        "26506346": "2022-10-01T00:46:45",
+        "12191693": "2022-12-12T07:22:43",
+        "93014555": "2023-01-22T08:40:49",
+        "8601580": "2023-01-29T08:18:06"
+    }
+}[
+    {
+        "GHA": [
+            {
+                "file_name": ".github/workflows/tests.yml",
+                "commit_date": "2021-12-02T15:49:12",
+                "status": "modified",
+                "first_commit": "2021-07-15T15:45:58",
+                "last_commit": "2021-12-02T15:49:12",
+                "CI_type": "GHA",
+                "sha": "bdda69484fecd8826e376be0e7a9fd924e5f032f"
+            },
+            {
+                "file_name": ".github/workflows/tests.yml",
+                "commit_date": "2021-11-10T10:28:07",
+                "status": "modified",
+                "first_commit": "2021-07-15T15:45:58",
+                "last_commit": "2021-12-02T15:49:12",
+                "CI_type": "GHA",
+                "sha": "79fe7b977bc4c72a38e9c65fc8b3cf2a7a4d3300"
+            },
+            {
+                "file_name": ".github/workflows/tests.yml",
+                "commit_date": "2021-07-15T15:45:58",
+                "status": "added",
+                "first_commit": "2021-07-15T15:45:58",
+                "last_commit": "2021-12-02T15:49:12",
+                "CI_type": "GHA",
+                "sha": "2b4a70f799d0f7c6fff98431111f7475344f70fc"
+            }
+        ]
+    },
+    {
+        "Travis": [
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2021-07-15T15:45:58",
+                "status": "removed",
+                "first_commit": "2019-08-08T16:11:07",
+                "last_commit": "2021-07-15T15:45:58",
+                "CI_type": "Travis",
+                "sha": "2b4a70f799d0f7c6fff98431111f7475344f70fc"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-07-21T10:03:17",
+                "status": "modified",
+                "first_commit": "2019-08-08T16:11:07",
+                "last_commit": "2021-07-15T15:45:58",
+                "CI_type": "Travis",
+                "sha": "87a06af9de3dc96f5939e57d696fa9814b6d5347"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-07-10T22:37:20",
+                "status": "modified",
+                "first_commit": "2019-08-08T16:11:07",
+                "last_commit": "2021-07-15T15:45:58",
+                "CI_type": "Travis",
+                "sha": "8c7b132f57e405fd1392f17728a43eaef45f3db5"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-07-10T07:40:25",
+                "status": "modified",
+                "first_commit": "2019-08-08T16:11:07",
+                "last_commit": "2021-07-15T15:45:58",
+                "CI_type": "Travis",
+                "sha": "7f2f111b725b9590dc89373293f375cb033ccd5f"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-07-09T21:54:12",
+                "status": "modified",
+                "first_commit": "2019-08-08T16:11:07",
+                "last_commit": "2021-07-15T15:45:58",
+                "CI_type": "Travis",
+                "sha": "1b9e6e1f0f7baa58963bf91f2bc7d0f9ce5356ce"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-05-28T18:26:51",
+                "status": "modified",
+                "first_commit": "2019-08-08T16:11:07",
+                "last_commit": "2021-07-15T15:45:58",
+                "CI_type": "Travis",
+                "sha": "dcf926c06cc6e1c715244ce86a9a7c2e0a2b26b7"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2019-12-04T22:02:55",
+                "status": "modified",
+                "first_commit": "2019-08-08T16:11:07",
+                "last_commit": "2021-07-15T15:45:58",
+                "CI_type": "Travis",
+                "sha": "b410a0a3dbefd667f04d4e60d0d153fbc9fd6950"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2019-08-12T09:17:13",
+                "status": "modified",
+                "first_commit": "2019-08-08T16:11:07",
+                "last_commit": "2021-07-15T15:45:58",
+                "CI_type": "Travis",
+                "sha": "06a333b77934e08d365b184f92be90454394612c"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2019-08-08T16:11:07",
+                "status": "renamed",
+                "first_commit": "2019-08-08T16:11:07",
+                "last_commit": "2021-07-15T15:45:58",
+                "CI_type": "Travis",
+                "sha": "f6b6bac3c982bc46028f7f515f971149216ca528"
+            }
+        ]
+    },
+    {
+        "CircleCI": []
+    },
+    {
+        "AppVeyor": []
+    },
+    {
+        "Azure": []
+    },
+    {
+        "GitLab": []
+    },
+    {
+        "Jenkins": [
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2023-01-18T18:17:53",
+                "status": "modified",
+                "first_commit": "2021-04-26T20:44:09",
+                "last_commit": "2023-01-18T18:17:53",
+                "CI_type": "Jenkins",
+                "sha": "979d0fc388e7a3ff159fcbac4096254225fa23d6"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2022-07-25T16:42:21",
+                "status": "modified",
+                "first_commit": "2021-04-26T20:44:09",
+                "last_commit": "2023-01-18T18:17:53",
+                "CI_type": "Jenkins",
+                "sha": "1564c624e2fe4c40148fafa86b92b1224518126a"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2022-07-06T12:38:27",
+                "status": "modified",
+                "first_commit": "2021-04-26T20:44:09",
+                "last_commit": "2023-01-18T18:17:53",
+                "CI_type": "Jenkins",
+                "sha": "fc083c8d7e458b7f3222d6f63c381662a9a41c77"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2022-03-28T13:22:11",
+                "status": "modified",
+                "first_commit": "2021-04-26T20:44:09",
+                "last_commit": "2023-01-18T18:17:53",
+                "CI_type": "Jenkins",
+                "sha": "78783b9692c8c475ff6c05169d5f2678079da8d7"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2022-03-24T20:16:24",
+                "status": "modified",
+                "first_commit": "2021-04-26T20:44:09",
+                "last_commit": "2023-01-18T18:17:53",
+                "CI_type": "Jenkins",
+                "sha": "a10416dc86d9acf0028257dafbb25f1296c34c9a"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2022-02-21T15:15:47",
+                "status": "modified",
+                "first_commit": "2021-04-26T20:44:09",
+                "last_commit": "2023-01-18T18:17:53",
+                "CI_type": "Jenkins",
+                "sha": "3ff73946e0220c8b9eb0b858c7b11c3913e1bce9"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2021-12-02T15:49:12",
+                "status": "modified",
+                "first_commit": "2021-04-26T20:44:09",
+                "last_commit": "2023-01-18T18:17:53",
+                "CI_type": "Jenkins",
+                "sha": "bdda69484fecd8826e376be0e7a9fd924e5f032f"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2021-11-26T09:44:22",
+                "status": "modified",
+                "first_commit": "2021-04-26T20:44:09",
+                "last_commit": "2023-01-18T18:17:53",
+                "CI_type": "Jenkins",
+                "sha": "8645a4361425e1783b3cb5b3503f0afa1da3f879"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2021-11-10T10:28:07",
+                "status": "modified",
+                "first_commit": "2021-04-26T20:44:09",
+                "last_commit": "2023-01-18T18:17:53",
+                "CI_type": "Jenkins",
+                "sha": "79fe7b977bc4c72a38e9c65fc8b3cf2a7a4d3300"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2021-07-20T18:24:48",
+                "status": "modified",
+                "first_commit": "2021-04-26T20:44:09",
+                "last_commit": "2023-01-18T18:17:53",
+                "CI_type": "Jenkins",
+                "sha": "c210ebfd551d84d74191b704b75d50be0fd449cd"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2021-05-03T13:35:36",
+                "status": "modified",
+                "first_commit": "2021-04-26T20:44:09",
+                "last_commit": "2023-01-18T18:17:53",
+                "CI_type": "Jenkins",
+                "sha": "eeaaca1b2d3bb17a449588c65ce8907e8d87996e"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2021-04-26T20:44:09",
+                "status": "added",
+                "first_commit": "2021-04-26T20:44:09",
+                "last_commit": "2023-01-18T18:17:53",
+                "CI_type": "Jenkins",
+                "sha": "e5dc940d8a6cf8dc1f72dce24c44702b4e3c3649"
+            }
+        ]
+    }
+]

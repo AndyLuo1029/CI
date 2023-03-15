@@ -1,0 +1,509 @@
+{
+    "id": 227190868,
+    "name": "calm-dsl",
+    "full_name": "nutanix/calm-dsl",
+    "org_name": "Nutanix, Inc.",
+    "org_id": 6165865,
+    "created_at": "2019-12-10T18:38:58",
+    "pushed_at": "2023-03-09T15:18:57",
+    "updated_at": "2022-11-25T16:48:26",
+    "isFork": false,
+    "forks": 44,
+    "forks_count": 44,
+    "has_downloads": true,
+    "has_issues": true,
+    "has_pages": true,
+    "has_projects": true,
+    "has_wiki": true,
+    "homepage": "https://nutanix.github.io/calm-dsl/",
+    "language": "Python",
+    "open_issues": 80,
+    "open_issues_count": 80,
+    "size": 16285,
+    "stargazers_count": 28,
+    "subscribers_count": 16,
+    "watchers": 28,
+    "watchers_count": 28,
+    "first_commit": "2021-11-18T07:29:07",
+    "last_commit": "2023-02-24T05:20:32",
+    "branches_count": 41,
+    "commit_comments_count": 7,
+    "commits_count": 3287,
+    "countributors_count": 39,
+    "downloads_count": 0,
+    "events_count": 23,
+    "issues_count": 80,
+    "labels_count": 14,
+    "milestones_count": 0,
+    "PR_count": 100,
+    "open_PR_count": 4,
+    "readme_size": 20458,
+    "release_count": 6,
+    "topic_count": 0,
+    "15_commits": 0,
+    "16_commits": 0,
+    "17_commits": 0,
+    "18_commits": 0,
+    "19_commits": 1498,
+    "20_commits": 1359,
+    "21_commits": 296,
+    "22_commits": 127,
+    "15_committer_num": 0,
+    "16_committer_num": 0,
+    "17_committer_num": 0,
+    "18_committer_num": 0,
+    "19_committer_num": 10,
+    "20_committer_num": 17,
+    "21_committer_num": 14,
+    "22_committer_num": 21
+}{
+    "stargazer_date": {
+        "5642075": "2019-12-23T15:23:20",
+        "21222215": "2020-01-24T06:14:18",
+        "48350301": "2020-01-24T13:36:58",
+        "17649319": "2020-01-24T17:47:56",
+        "54717854": "2020-01-24T18:08:36",
+        "28715": "2020-01-31T19:10:25",
+        "49713032": "2020-02-03T07:31:56",
+        "14321642": "2020-02-04T15:50:33",
+        "31892478": "2020-02-04T17:54:12",
+        "553915": "2020-03-02T19:02:13",
+        "25867561": "2020-03-10T09:07:16",
+        "1849417": "2020-04-17T19:39:54",
+        "12028887": "2020-05-01T11:45:16",
+        "642870": "2020-05-31T22:00:24",
+        "28447184": "2020-06-24T18:44:28",
+        "1645382": "2020-08-30T15:41:50",
+        "8986826": "2020-12-05T17:23:57",
+        "60514625": "2021-02-19T14:20:06",
+        "58617334": "2021-03-17T21:28:39",
+        "6831963": "2021-05-06T15:15:40",
+        "8167392": "2021-05-07T15:16:27",
+        "613948": "2021-05-27T02:38:01",
+        "5436386": "2021-11-19T21:02:22",
+        "1216999": "2022-02-04T02:05:41",
+        "75805841": "2022-02-23T00:06:00",
+        "2156185": "2022-03-15T11:12:11",
+        "13823425": "2022-05-02T17:46:49",
+        "40820": "2022-05-17T19:47:22"
+    }
+}[
+    {
+        "GHA": [
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2023-01-18T10:10:19",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "2c61a35bb47719cb846ff027ebc5d993f7889e24"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-07-23T08:03:04",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "42b42e31c617b2f8f24a9c12ed159c2690872d38"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-07-12T12:10:27",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "ccf9cfe229f52cb3cfb30b0aacbd932e5605a059"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-04-11T06:51:13",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "1089a01e0c99a0fa4eaee305fb1230204eff6a85"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-03-09T05:16:38",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "e4658961e0d4dd36340d55d45dca8426e2bd9ee4"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-02-16T17:42:03",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "b41de417c3caa2f27b24db2878cafbb3e004b308"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2021-04-28T09:15:51",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "5192d4e1087c0ae7c07ff3857da430634c70f80b"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2021-04-05T07:53:16",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "2dbf27e8a936756c34ad621774275ada37efc7c2"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2021-04-05T07:06:14",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "82be4ae1241131cdb34355da18786f86e4833713"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2021-03-26T06:38:14",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "9aeada00fca3fb4f9275546cb2430eb25ec6eca8"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2021-03-24T08:23:24",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "1c129e45ff438a71b2be33bf1d09a51bc0f7d6dd"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2021-03-09T10:51:46",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "628c19bce7d5092b1881b6c3849e83ffa7fbc390"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2021-03-09T10:46:47",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "1b86073db95656cf8cd2a5d22306cafb30caabe0"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-08-27T07:24:52",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "ab67011c4fd75316cc2e5e054f735a0693fbd54a"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-08-27T07:06:45",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "9d05b594fc66fd99908e3fc4e9e56c60247084c1"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-08-27T07:00:22",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "ae722dc1cc2db793507f56101bc383f4bbb3c48a"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-08-27T06:20:54",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "c18005603c2d3e793c92f400df2e3a50123be36f"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-08-27T06:12:31",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "2103e0e48a58166bc586b6ca5908f3eb56f55745"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-03-05T00:01:09",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "6f958ac70a2a534a2d8c693fab1819c22c2f95c8"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-02-25T22:24:12",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "28f6eb708fef848788206854544dff8a3b420cc5"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-02-25T22:19:39",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "b014fcefdf10f21cd93a7888b8ba9e4956debc88"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-02-25T19:31:30",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "aaf649b7b8a928593c55732ac979b11c0f6a1157"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-02-25T18:22:52",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "8195a3630f10c4deb20313978f710c83622cd4dd"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-02-25T18:20:57",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "ef10e0f29b0da39ad5d7914248474e8ceaab5131"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-02-25T02:38:14",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "e0b26bd1ddf83da76e7a30a6e09c839c02e5b6c2"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-02-21T18:57:30",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "5f3459917eb98a49bedca7cc075da6d7ffbd1f9e"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-02-21T18:48:23",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "c9dce9117ec927e30e0dad4ed000df6d82c37a83"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-02-21T18:45:10",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "1c47a48fff4e0535a31203d92d9e59c7b26c6eae"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-02-12T05:23:34",
+                "status": "modified",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "bfe1adbcf8e599ee2b6391178a98980311a84ff2"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2020-02-11T14:55:43",
+                "status": "added",
+                "first_commit": "2020-02-11T14:55:43",
+                "last_commit": "2023-01-18T10:10:19",
+                "CI_type": "GHA",
+                "sha": "c38b6ce13c899512255cf1588e7856cd80c19cad"
+            },
+            {
+                "file_name": ".github/workflows/sync-repo.yml",
+                "commit_date": "2021-07-19T07:22:15",
+                "status": "modified",
+                "first_commit": "2021-05-04T14:09:43",
+                "last_commit": "2021-07-19T07:22:15",
+                "CI_type": "GHA",
+                "sha": "9bcdd7d51a279ec4651815388dfebec561c267aa"
+            },
+            {
+                "file_name": ".github/workflows/sync-repo.yml",
+                "commit_date": "2021-05-04T16:48:16",
+                "status": "modified",
+                "first_commit": "2021-05-04T14:09:43",
+                "last_commit": "2021-07-19T07:22:15",
+                "CI_type": "GHA",
+                "sha": "ad3fc546a4646eacfaa3d51ecc572c0b75c79ac5"
+            },
+            {
+                "file_name": ".github/workflows/sync-repo.yml",
+                "commit_date": "2021-05-04T15:22:15",
+                "status": "modified",
+                "first_commit": "2021-05-04T14:09:43",
+                "last_commit": "2021-07-19T07:22:15",
+                "CI_type": "GHA",
+                "sha": "d92941896bf96d94662498c4d4c0fa8cb6ca30c2"
+            },
+            {
+                "file_name": ".github/workflows/sync-repo.yml",
+                "commit_date": "2021-05-04T15:00:32",
+                "status": "modified",
+                "first_commit": "2021-05-04T14:09:43",
+                "last_commit": "2021-07-19T07:22:15",
+                "CI_type": "GHA",
+                "sha": "d05cd2481e713f705ea431e71496a422bde2a1d5"
+            },
+            {
+                "file_name": ".github/workflows/sync-repo.yml",
+                "commit_date": "2021-05-04T14:44:15",
+                "status": "modified",
+                "first_commit": "2021-05-04T14:09:43",
+                "last_commit": "2021-07-19T07:22:15",
+                "CI_type": "GHA",
+                "sha": "a1434ce7520ee94f2f32860bcf53b53e48cf365b"
+            },
+            {
+                "file_name": ".github/workflows/sync-repo.yml",
+                "commit_date": "2021-05-04T14:09:43",
+                "status": "added",
+                "first_commit": "2021-05-04T14:09:43",
+                "last_commit": "2021-07-19T07:22:15",
+                "CI_type": "GHA",
+                "sha": "74cda00c2f924bbb399973ce7cf0b1597b023730"
+            },
+            {
+                "file_name": ".github/workflows/release.yml",
+                "commit_date": "2022-07-12T12:10:27",
+                "status": "modified",
+                "first_commit": "2022-03-08T08:52:17",
+                "last_commit": "2022-07-12T12:10:27",
+                "CI_type": "GHA",
+                "sha": "ccf9cfe229f52cb3cfb30b0aacbd932e5605a059"
+            },
+            {
+                "file_name": ".github/workflows/release.yml",
+                "commit_date": "2022-03-09T05:16:38",
+                "status": "modified",
+                "first_commit": "2022-03-08T08:52:17",
+                "last_commit": "2022-07-12T12:10:27",
+                "CI_type": "GHA",
+                "sha": "e4658961e0d4dd36340d55d45dca8426e2bd9ee4"
+            },
+            {
+                "file_name": ".github/workflows/release.yml",
+                "commit_date": "2022-03-08T17:52:25",
+                "status": "modified",
+                "first_commit": "2022-03-08T08:52:17",
+                "last_commit": "2022-07-12T12:10:27",
+                "CI_type": "GHA",
+                "sha": "4ef28abde37f62054fc2601defa9a08c643dd4e9"
+            },
+            {
+                "file_name": ".github/workflows/release.yml",
+                "commit_date": "2022-03-08T08:52:17",
+                "status": "added",
+                "first_commit": "2022-03-08T08:52:17",
+                "last_commit": "2022-07-12T12:10:27",
+                "CI_type": "GHA",
+                "sha": "0d6091ca43aebb831e2988d84ab3c48ea3a0bfcd"
+            },
+            {
+                "file_name": ".github/workflows/build_tests.yml",
+                "commit_date": "2020-04-01T02:34:16",
+                "status": "removed",
+                "first_commit": "2020-03-27T09:46:12",
+                "last_commit": "2020-04-01T02:34:16",
+                "CI_type": "GHA",
+                "sha": "41572ce03c99709d60d42ce5a7f1ba180e2d6533"
+            },
+            {
+                "file_name": ".github/workflows/build_tests.yml",
+                "commit_date": "2020-03-27T15:37:33",
+                "status": "modified",
+                "first_commit": "2020-03-27T09:46:12",
+                "last_commit": "2020-04-01T02:34:16",
+                "CI_type": "GHA",
+                "sha": "0d4d9589fe131738064367c5358f5c85f3eb6539"
+            },
+            {
+                "file_name": ".github/workflows/build_tests.yml",
+                "commit_date": "2020-03-27T11:28:03",
+                "status": "modified",
+                "first_commit": "2020-03-27T09:46:12",
+                "last_commit": "2020-04-01T02:34:16",
+                "CI_type": "GHA",
+                "sha": "530eebe193c779993be550b91ae7f77ff05075bd"
+            },
+            {
+                "file_name": ".github/workflows/build_tests.yml",
+                "commit_date": "2020-03-27T09:46:12",
+                "status": "added",
+                "first_commit": "2020-03-27T09:46:12",
+                "last_commit": "2020-04-01T02:34:16",
+                "CI_type": "GHA",
+                "sha": "4b5c8a6cc964001f4939797b38632e1ba3e39fa0"
+            }
+        ]
+    },
+    {
+        "Travis": []
+    },
+    {
+        "CircleCI": []
+    },
+    {
+        "AppVeyor": []
+    },
+    {
+        "Azure": []
+    },
+    {
+        "GitLab": []
+    },
+    {
+        "Jenkins": []
+    }
+]

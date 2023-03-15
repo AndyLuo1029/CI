@@ -1,0 +1,556 @@
+{
+    "id": 433781350,
+    "name": "crossplane-provider-aws",
+    "full_name": "IBM/crossplane-provider-aws",
+    "org_name": "International Business Machines",
+    "org_id": 1459110,
+    "created_at": "2021-12-01T10:28:17",
+    "pushed_at": "2021-12-13T10:57:47",
+    "updated_at": "2023-03-14T19:32:52",
+    "isFork": false,
+    "forks": 0,
+    "forks_count": 0,
+    "has_downloads": true,
+    "has_issues": true,
+    "has_pages": false,
+    "has_projects": true,
+    "has_wiki": true,
+    "homepage": null,
+    "language": "Go",
+    "open_issues": 0,
+    "open_issues_count": 0,
+    "size": 8864,
+    "stargazers_count": 1,
+    "subscribers_count": 4,
+    "watchers": 1,
+    "watchers_count": 1,
+    "first_commit": "2021-10-12T14:42:55",
+    "last_commit": "2021-12-13T10:57:47",
+    "branches_count": 2,
+    "commit_comments_count": 1,
+    "commits_count": 2090,
+    "countributors_count": 60,
+    "downloads_count": 0,
+    "events_count": 0,
+    "issues_count": 0,
+    "labels_count": 9,
+    "milestones_count": 0,
+    "PR_count": 0,
+    "open_PR_count": 0,
+    "readme_size": 3009,
+    "release_count": 0,
+    "topic_count": 0,
+    "15_commits": 0,
+    "16_commits": 0,
+    "17_commits": 0,
+    "18_commits": 243,
+    "19_commits": 619,
+    "20_commits": 691,
+    "21_commits": 537,
+    "22_commits": 0,
+    "15_committer_num": 0,
+    "16_committer_num": 0,
+    "17_committer_num": 0,
+    "18_committer_num": 6,
+    "19_committer_num": 11,
+    "20_committer_num": 24,
+    "21_committer_num": 39,
+    "22_committer_num": 0
+}{
+    "stargazer_date": {
+        "81129097": "2022-03-14T15:01:07"
+    }
+}[
+    {
+        "GHA": [
+            {
+                "file_name": ".github/workflows/backport.yml",
+                "commit_date": "2021-06-03T01:35:21",
+                "status": "added",
+                "first_commit": "2021-06-03T01:35:21",
+                "last_commit": "2021-06-03T01:35:21",
+                "CI_type": "GHA",
+                "sha": "045802cac0a0db94898e25b00c39309d7aa1f539"
+            },
+            {
+                "file_name": ".github/workflows/promote.yml",
+                "commit_date": "2020-10-25T01:05:25",
+                "status": "modified",
+                "first_commit": "2020-10-22T23:17:59",
+                "last_commit": "2020-10-25T01:05:25",
+                "CI_type": "GHA",
+                "sha": "bb6087bc43daefa7ca008c70230571d1785fcc90"
+            },
+            {
+                "file_name": ".github/workflows/promote.yml",
+                "commit_date": "2020-10-22T23:17:59",
+                "status": "added",
+                "first_commit": "2020-10-22T23:17:59",
+                "last_commit": "2020-10-25T01:05:25",
+                "CI_type": "GHA",
+                "sha": "b7675208ccec899b37abd9c53cae7d91ae6a2889"
+            },
+            {
+                "file_name": ".github/workflows/commands.yml",
+                "commit_date": "2021-06-03T01:35:21",
+                "status": "added",
+                "first_commit": "2021-06-03T01:35:21",
+                "last_commit": "2021-06-03T01:35:21",
+                "CI_type": "GHA",
+                "sha": "045802cac0a0db94898e25b00c39309d7aa1f539"
+            },
+            {
+                "file_name": ".github/workflows/tag.yml",
+                "commit_date": "2020-10-25T01:05:25",
+                "status": "modified",
+                "first_commit": "2020-10-22T23:17:59",
+                "last_commit": "2020-10-25T01:05:25",
+                "CI_type": "GHA",
+                "sha": "bb6087bc43daefa7ca008c70230571d1785fcc90"
+            },
+            {
+                "file_name": ".github/workflows/tag.yml",
+                "commit_date": "2020-10-22T23:17:59",
+                "status": "added",
+                "first_commit": "2020-10-22T23:17:59",
+                "last_commit": "2020-10-25T01:05:25",
+                "CI_type": "GHA",
+                "sha": "b7675208ccec899b37abd9c53cae7d91ae6a2889"
+            },
+            {
+                "file_name": ".github/workflows/ci.yml",
+                "commit_date": "2021-07-28T15:56:32",
+                "status": "modified",
+                "first_commit": "2020-10-21T22:15:01",
+                "last_commit": "2021-07-28T15:56:32",
+                "CI_type": "GHA",
+                "sha": "2c73c9001026fa71ffd46c985fb541f83757ff95"
+            },
+            {
+                "file_name": ".github/workflows/ci.yml",
+                "commit_date": "2020-10-25T01:05:25",
+                "status": "modified",
+                "first_commit": "2020-10-21T22:15:01",
+                "last_commit": "2021-07-28T15:56:32",
+                "CI_type": "GHA",
+                "sha": "bb6087bc43daefa7ca008c70230571d1785fcc90"
+            },
+            {
+                "file_name": ".github/workflows/ci.yml",
+                "commit_date": "2020-10-22T23:17:59",
+                "status": "modified",
+                "first_commit": "2020-10-21T22:15:01",
+                "last_commit": "2021-07-28T15:56:32",
+                "CI_type": "GHA",
+                "sha": "b7675208ccec899b37abd9c53cae7d91ae6a2889"
+            },
+            {
+                "file_name": ".github/workflows/ci.yml",
+                "commit_date": "2020-10-22T04:56:56",
+                "status": "modified",
+                "first_commit": "2020-10-21T22:15:01",
+                "last_commit": "2021-07-28T15:56:32",
+                "CI_type": "GHA",
+                "sha": "831252cc0b1620ad9b8d6889dd57bb9591cf761b"
+            },
+            {
+                "file_name": ".github/workflows/ci.yml",
+                "commit_date": "2020-10-21T22:15:01",
+                "status": "added",
+                "first_commit": "2020-10-21T22:15:01",
+                "last_commit": "2021-07-28T15:56:32",
+                "CI_type": "GHA",
+                "sha": "f808647c369576f8b0fa77d95b8925f697a67f71"
+            },
+            {
+                "file_name": ".github/workflows/golangci-lint.yml",
+                "commit_date": "2020-10-21T22:15:01",
+                "status": "removed",
+                "first_commit": "2020-09-27T00:10:16",
+                "last_commit": "2020-10-21T22:15:01",
+                "CI_type": "GHA",
+                "sha": "f808647c369576f8b0fa77d95b8925f697a67f71"
+            },
+            {
+                "file_name": ".github/workflows/golangci-lint.yml",
+                "commit_date": "2020-09-27T00:10:16",
+                "status": "added",
+                "first_commit": "2020-09-27T00:10:16",
+                "last_commit": "2020-10-21T22:15:01",
+                "CI_type": "GHA",
+                "sha": "79c93737f7b3bcfdfeb95c6ca3c9c29a32ac87eb"
+            }
+        ]
+    },
+    {
+        "Travis": []
+    },
+    {
+        "CircleCI": [
+            {
+                "file_name": "/.circleci/config.yml",
+                "commit_date": "2018-11-20T00:58:45",
+                "status": "removed",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2018-11-20T00:58:45",
+                "CI_type": "CircleCI",
+                "sha": "8669ba673d964d6fc12abd70a6f9e48d7663aae2"
+            },
+            {
+                "file_name": "/.circleci/config.yml",
+                "commit_date": "2018-09-14T03:08:10",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2018-11-20T00:58:45",
+                "CI_type": "CircleCI",
+                "sha": "cf0d55a236616a1f9202f7861da746025c58f680"
+            },
+            {
+                "file_name": "/.circleci/config.yml",
+                "commit_date": "2018-09-14T00:20:02",
+                "status": "added",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2018-11-20T00:58:45",
+                "CI_type": "CircleCI",
+                "sha": "83dc67051980353127879bf085c2a8e98830342f"
+            }
+        ]
+    },
+    {
+        "AppVeyor": []
+    },
+    {
+        "Azure": []
+    },
+    {
+        "GitLab": []
+    },
+    {
+        "Jenkins": [
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2020-10-21T22:15:14",
+                "status": "removed",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "8118034a32a23d63b354b868d82b96ac76a7d0ea"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2020-09-27T15:30:57",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "c3c63a67b5ad1d8d418d1fee6172f94b528fbdd1"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2020-09-24T14:31:28",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "232073ba7ec75ff99ad173edb815c5f541b54dd3"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2020-03-05T02:38:00",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "f9cbf3244e118a8de101de0721f80f51997275dc"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2020-02-20T04:16:37",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "f7ac75f4e0777c77fa822d8722784850ac84a5e7"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2020-02-19T16:37:15",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "3839b4403e589512a663cdc7bf08c3a8a0e44c50"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-11-10T23:06:29",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "4cd7d261e9bf4659cc88333d9a6a3cb4fb6bc9f6"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-10-08T23:22:19",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "4f94fdefb9193a99866e58262a82166d03bb123d"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-09-07T01:51:22",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "d3750d81f292e68fc9a445647c99a080550dd979"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-08-01T18:29:35",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "eaf1278624fe4d7db67d82918982692388a957f2"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-07-31T23:08:06",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "784f9e7bb76a66b15a3563617e2a7a8bff98f771"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-05-16T19:47:57",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "d89aa83ff7fb702869e528ccf35209f56c77d4d8"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-05-10T05:27:03",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "0d6bf6b08f960a67502c63ee18d2af2ffb671575"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-04-30T19:27:41",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "13fd58d1b8279e66eb90b89565609d514be30b32"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-04-30T18:33:15",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "cd15a5c48b1576c4cc358ec97ef9a0fc4afa67d9"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-04-09T23:09:16",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "46d6c3b0a26a41cba3d276664f0f3d50cfc62717"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-04-09T05:32:24",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "eaad0551081c8204fb14463ca8032ab64baad752"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-03-08T06:12:28",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "4d45262bf6c7b40138cb0b7d44e25b6a5882fe77"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-03-08T00:45:34",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "d6505e874ac6945a45f4de971112a2830933ab14"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-03-07T22:07:44",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "58ebb95cbac222f0190e1d1eae37152c814dedfe"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-03-07T21:58:56",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "2051981aa438457aa6b045ce8acdd7d05e227000"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-03-07T00:52:18",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "bb4a6d3c7ff23dd1fcaf1e54c1cc8b95ca347748"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-03-07T01:48:34",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "8a7a8ed870cf8e9d6fc746c1a0f480a4a5cf3978"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2019-03-07T23:06:02",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "4accc4e079a2e3a595b36dae3d07d12c7848a4c9"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2018-12-14T15:54:37",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "6fc85868651e6b2df2f41bacbcc1c20f6221e5fb"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2018-12-03T18:41:47",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "33b7c08ad6042fa274bc20451f859b905ecc8cc3"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2018-12-03T16:31:40",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "7627dd49e8535538b9faaddd01f5ee865fa3666c"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2018-12-03T06:55:46",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "16929c9ef17323b5e642870bbad6c36afa18d38b"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2018-12-02T23:03:34",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "9f87147e636a197c9f10f169b119afffdf47c907"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2018-11-28T20:30:49",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "e2ad4d2d6d2ba1ff49ee5f71b20a97f0171289c3"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2018-11-20T16:58:07",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "b1debb2495d96f8941dd2d88f34cd811180c8b82"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2018-10-12T21:49:14",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "0d48804e31ef3914ad57ff5873d18731aa04cd31"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2018-09-15T03:45:52",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "0e5a81b494cfee2f6fa7f09c3642d8e75ff70458"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2018-09-14T14:35:35",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "a66acd2c2e90757d8898381e1d0bdd6bf6ab5ec0"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2018-09-14T03:08:10",
+                "status": "modified",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "cf0d55a236616a1f9202f7861da746025c58f680"
+            },
+            {
+                "file_name": "/Jenkinsfile",
+                "commit_date": "2018-09-14T00:20:02",
+                "status": "added",
+                "first_commit": "2018-09-14T00:20:02",
+                "last_commit": "2020-10-21T22:15:14",
+                "CI_type": "Jenkins",
+                "sha": "83dc67051980353127879bf085c2a8e98830342f"
+            }
+        ]
+    }
+]

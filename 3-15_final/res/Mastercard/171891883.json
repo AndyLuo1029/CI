@@ -1,0 +1,455 @@
+{
+    "id": 171891883,
+    "name": "client-encryption-java",
+    "full_name": "Mastercard/client-encryption-java",
+    "org_name": null,
+    "org_id": 1653148,
+    "created_at": "2019-02-21T14:59:33",
+    "pushed_at": "2023-02-22T15:12:02",
+    "updated_at": "2023-03-05T06:43:00",
+    "isFork": false,
+    "forks": 40,
+    "forks_count": 40,
+    "has_downloads": true,
+    "has_issues": true,
+    "has_pages": false,
+    "has_projects": true,
+    "has_wiki": true,
+    "homepage": "https://developer.mastercard.com/platform/documentation/security-and-authentication/securing-sensitive-data-using-payload-encryption/",
+    "language": "Java",
+    "open_issues": 3,
+    "open_issues_count": 3,
+    "size": 500,
+    "stargazers_count": 72,
+    "subscribers_count": 19,
+    "watchers": 72,
+    "watchers_count": 72,
+    "first_commit": "2021-05-11T15:19:49",
+    "last_commit": "2023-01-12T14:04:53",
+    "branches_count": 3,
+    "commit_comments_count": 1,
+    "commits_count": 264,
+    "countributors_count": 12,
+    "downloads_count": 0,
+    "events_count": 31,
+    "issues_count": 3,
+    "labels_count": 10,
+    "milestones_count": 0,
+    "PR_count": 45,
+    "open_PR_count": 2,
+    "readme_size": 32382,
+    "release_count": 19,
+    "topic_count": 8,
+    "15_commits": 0,
+    "16_commits": 0,
+    "17_commits": 0,
+    "18_commits": 0,
+    "19_commits": 119,
+    "20_commits": 31,
+    "21_commits": 66,
+    "22_commits": 47,
+    "15_committer_num": 0,
+    "16_committer_num": 0,
+    "17_committer_num": 0,
+    "18_committer_num": 0,
+    "19_committer_num": 3,
+    "20_committer_num": 3,
+    "21_committer_num": 6,
+    "22_committer_num": 9
+}{
+    "stargazer_date": {
+        "691457": "2019-05-11T10:14:40",
+        "1479669": "2019-07-24T20:02:15",
+        "2222789": "2019-08-28T01:02:08",
+        "442813": "2019-09-24T20:18:10",
+        "24692131": "2019-09-25T06:31:15",
+        "5229195": "2019-10-18T14:08:32",
+        "385570": "2019-10-22T13:26:56",
+        "4891848": "2019-10-26T17:38:41",
+        "56965859": "2019-11-04T09:44:02",
+        "4599131": "2019-11-04T10:01:23",
+        "7002406": "2019-11-04T11:43:09",
+        "2343821": "2019-11-05T13:19:05",
+        "930653": "2019-12-11T01:58:24",
+        "11821321": "2020-02-13T08:42:18",
+        "25368846": "2020-02-19T18:23:58",
+        "110873": "2020-04-23T15:42:19",
+        "1678735": "2020-05-12T15:28:28",
+        "50169379": "2020-06-12T07:45:13",
+        "73449758": "2020-10-28T18:39:21",
+        "1187096": "2020-11-18T19:46:10",
+        "13808299": "2020-12-25T13:15:42",
+        "10172499": "2021-01-30T14:37:19",
+        "44618004": "2021-04-07T22:32:20",
+        "131457": "2021-05-05T18:17:12",
+        "14057734": "2021-05-07T04:16:45",
+        "9427954": "2021-07-10T10:08:54",
+        "26089138": "2021-07-21T08:57:24",
+        "5264031": "2021-08-07T01:59:31",
+        "4824489": "2021-08-23T10:42:19",
+        "3647121": "2021-08-31T13:42:41",
+        "34686408": "2021-09-05T08:41:04",
+        "14100692": "2021-09-25T21:41:41",
+        "41847480": "2021-09-26T06:17:23",
+        "42913976": "2021-09-27T14:15:47",
+        "27915379": "2021-10-17T00:50:46",
+        "1661655": "2021-10-22T03:24:52",
+        "33848895": "2021-11-16T13:54:12",
+        "27640403": "2021-12-08T01:28:16",
+        "42100853": "2022-01-02T20:47:40",
+        "2316167": "2022-01-04T13:28:02",
+        "33976429": "2022-01-12T10:25:53",
+        "20698566": "2022-02-14T07:57:25",
+        "78700437": "2022-05-02T09:04:24",
+        "3741839": "2022-05-11T20:56:15",
+        "6383738": "2022-05-30T19:39:25",
+        "59830064": "2022-06-23T14:48:53",
+        "109300347": "2022-07-14T15:54:10",
+        "77213993": "2022-07-18T01:44:01",
+        "54198298": "2022-07-18T05:23:51",
+        "109599431": "2022-07-19T12:47:38",
+        "45810973": "2022-07-29T15:08:03",
+        "23317824": "2022-08-11T13:51:05",
+        "109617165": "2022-08-15T11:30:20",
+        "63535359": "2022-08-18T16:39:46",
+        "47487592": "2022-09-08T05:33:02",
+        "24784078": "2022-10-08T22:16:33",
+        "25666450": "2022-10-15T15:02:51",
+        "2242873": "2022-10-24T01:29:12",
+        "201615": "2022-11-04T16:05:15",
+        "114685618": "2022-11-09T16:41:39",
+        "64964276": "2022-11-15T19:09:41",
+        "118438569": "2022-11-23T11:47:05",
+        "13330328": "2022-11-24T14:51:37",
+        "9783542": "2022-12-07T16:02:56",
+        "111411113": "2022-12-19T01:06:13",
+        "89884928": "2023-01-05T04:46:48",
+        "27759033": "2023-01-06T09:48:11",
+        "73982374": "2023-01-25T01:53:14",
+        "7020500": "2023-01-27T21:19:42",
+        "105700555": "2023-02-01T13:08:54",
+        "126035450": "2023-03-03T21:45:45",
+        "17174981": "2023-03-05T06:43:00"
+    }
+}[
+    {
+        "GHA": [
+            {
+                "file_name": ".github/workflows/sonar-scanner.yml",
+                "commit_date": "2020-11-17T13:40:39",
+                "status": "removed",
+                "first_commit": "2020-11-17T13:07:50",
+                "last_commit": "2020-11-17T13:40:39",
+                "CI_type": "GHA",
+                "sha": "124d68d7d633c705da16a21a202e7e1edbb0d3c8"
+            },
+            {
+                "file_name": ".github/workflows/sonar-scanner.yml",
+                "commit_date": "2020-11-17T13:07:50",
+                "status": "added",
+                "first_commit": "2020-11-17T13:07:50",
+                "last_commit": "2020-11-17T13:40:39",
+                "CI_type": "GHA",
+                "sha": "e30dce82de0d01421c8d9cc9eb98ec7a84d92c2f"
+            },
+            {
+                "file_name": ".github/workflows/maven-test.yml",
+                "commit_date": "2023-01-12T14:04:53",
+                "status": "modified",
+                "first_commit": "2020-11-17T12:51:15",
+                "last_commit": "2023-01-12T14:04:53",
+                "CI_type": "GHA",
+                "sha": "b39a8c034cd08b4962ee13eb6d09b007147cd981"
+            },
+            {
+                "file_name": ".github/workflows/maven-test.yml",
+                "commit_date": "2022-01-04T10:50:22",
+                "status": "modified",
+                "first_commit": "2020-11-17T12:51:15",
+                "last_commit": "2023-01-12T14:04:53",
+                "CI_type": "GHA",
+                "sha": "595a4908fb2974e39213b6ba21002a2ec8d9cc9b"
+            },
+            {
+                "file_name": ".github/workflows/maven-test.yml",
+                "commit_date": "2021-07-23T11:43:34",
+                "status": "modified",
+                "first_commit": "2020-11-17T12:51:15",
+                "last_commit": "2023-01-12T14:04:53",
+                "CI_type": "GHA",
+                "sha": "bcc016a424fe8a7cd0b43f2a4e22487f6c1b115f"
+            },
+            {
+                "file_name": ".github/workflows/maven-test.yml",
+                "commit_date": "2020-11-24T16:29:37",
+                "status": "modified",
+                "first_commit": "2020-11-17T12:51:15",
+                "last_commit": "2023-01-12T14:04:53",
+                "CI_type": "GHA",
+                "sha": "37b719c1913c8eb7f9b77e07926797038745dd29"
+            },
+            {
+                "file_name": ".github/workflows/maven-test.yml",
+                "commit_date": "2020-11-20T14:09:02",
+                "status": "modified",
+                "first_commit": "2020-11-17T12:51:15",
+                "last_commit": "2023-01-12T14:04:53",
+                "CI_type": "GHA",
+                "sha": "84759e4c3bb0ac4ae804cd8524f0afcb8269fd8c"
+            },
+            {
+                "file_name": ".github/workflows/maven-test.yml",
+                "commit_date": "2020-11-17T12:51:15",
+                "status": "added",
+                "first_commit": "2020-11-17T12:51:15",
+                "last_commit": "2023-01-12T14:04:53",
+                "CI_type": "GHA",
+                "sha": "8d3b311eb5dad1bd3fbf304c6e7b124087615bcd"
+            },
+            {
+                "file_name": ".github/workflows/sonar-scan-update.yml",
+                "commit_date": "2021-11-01T15:58:56",
+                "status": "removed",
+                "first_commit": "2021-11-01T12:38:13",
+                "last_commit": "2021-11-01T15:58:56",
+                "CI_type": "GHA",
+                "sha": "f581e515024e97265d6b534e063eb75b86ce1f4b"
+            },
+            {
+                "file_name": ".github/workflows/sonar-scan-update.yml",
+                "commit_date": "2021-11-01T12:38:13",
+                "status": "added",
+                "first_commit": "2021-11-01T12:38:13",
+                "last_commit": "2021-11-01T15:58:56",
+                "CI_type": "GHA",
+                "sha": "d6ca02a92a21957fa1efa5965e0219b635dd7db9"
+            },
+            {
+                "file_name": ".github/workflows/sonar-scan.yml",
+                "commit_date": "2022-01-04T10:50:22",
+                "status": "modified",
+                "first_commit": "2020-11-17T13:02:59",
+                "last_commit": "2022-01-04T10:50:22",
+                "CI_type": "GHA",
+                "sha": "595a4908fb2974e39213b6ba21002a2ec8d9cc9b"
+            },
+            {
+                "file_name": ".github/workflows/sonar-scan.yml",
+                "commit_date": "2021-11-02T11:53:35",
+                "status": "modified",
+                "first_commit": "2020-11-17T13:02:59",
+                "last_commit": "2022-01-04T10:50:22",
+                "CI_type": "GHA",
+                "sha": "8b2147e5e5b2076a5ed9f96d833b2e87b5b7252b"
+            },
+            {
+                "file_name": ".github/workflows/sonar-scan.yml",
+                "commit_date": "2021-11-01T17:17:36",
+                "status": "modified",
+                "first_commit": "2020-11-17T13:02:59",
+                "last_commit": "2022-01-04T10:50:22",
+                "CI_type": "GHA",
+                "sha": "2553d4c36fc8bbb8f69904c45869283db599a629"
+            },
+            {
+                "file_name": ".github/workflows/sonar-scan.yml",
+                "commit_date": "2021-11-01T15:58:27",
+                "status": "modified",
+                "first_commit": "2020-11-17T13:02:59",
+                "last_commit": "2022-01-04T10:50:22",
+                "CI_type": "GHA",
+                "sha": "82a46079f0306ace94a2ad482938e0cff0736564"
+            },
+            {
+                "file_name": ".github/workflows/sonar-scan.yml",
+                "commit_date": "2021-07-23T11:43:34",
+                "status": "modified",
+                "first_commit": "2020-11-17T13:02:59",
+                "last_commit": "2022-01-04T10:50:22",
+                "CI_type": "GHA",
+                "sha": "bcc016a424fe8a7cd0b43f2a4e22487f6c1b115f"
+            },
+            {
+                "file_name": ".github/workflows/sonar-scan.yml",
+                "commit_date": "2020-11-24T16:29:34",
+                "status": "modified",
+                "first_commit": "2020-11-17T13:02:59",
+                "last_commit": "2022-01-04T10:50:22",
+                "CI_type": "GHA",
+                "sha": "da70dee35064759134b30ce527d84b66073b83f7"
+            },
+            {
+                "file_name": ".github/workflows/sonar-scan.yml",
+                "commit_date": "2020-11-17T13:46:27",
+                "status": "modified",
+                "first_commit": "2020-11-17T13:02:59",
+                "last_commit": "2022-01-04T10:50:22",
+                "CI_type": "GHA",
+                "sha": "8eacc3064250b6142e4a840322cd18b528a5af1b"
+            },
+            {
+                "file_name": ".github/workflows/sonar-scan.yml",
+                "commit_date": "2020-11-17T13:40:59",
+                "status": "modified",
+                "first_commit": "2020-11-17T13:02:59",
+                "last_commit": "2022-01-04T10:50:22",
+                "CI_type": "GHA",
+                "sha": "250bb867e1a055f75d87c61186d12871ec32dbdc"
+            },
+            {
+                "file_name": ".github/workflows/sonar-scan.yml",
+                "commit_date": "2020-11-17T13:36:51",
+                "status": "modified",
+                "first_commit": "2020-11-17T13:02:59",
+                "last_commit": "2022-01-04T10:50:22",
+                "CI_type": "GHA",
+                "sha": "b14b9700f76e6bb04961c1c8251e5fdbe810ab3c"
+            },
+            {
+                "file_name": ".github/workflows/sonar-scan.yml",
+                "commit_date": "2020-11-17T13:21:17",
+                "status": "modified",
+                "first_commit": "2020-11-17T13:02:59",
+                "last_commit": "2022-01-04T10:50:22",
+                "CI_type": "GHA",
+                "sha": "98431900cfe7a4075a901d9ef0fccb774c272f51"
+            },
+            {
+                "file_name": ".github/workflows/sonar-scan.yml",
+                "commit_date": "2020-11-17T13:02:59",
+                "status": "added",
+                "first_commit": "2020-11-17T13:02:59",
+                "last_commit": "2022-01-04T10:50:22",
+                "CI_type": "GHA",
+                "sha": "f68ba3ebd4de3b68073686ae8d194ca235fe46c9"
+            },
+            {
+                "file_name": ".github/workflows/broken-links.yml",
+                "commit_date": "2022-05-30T08:16:01",
+                "status": "modified",
+                "first_commit": "2020-10-23T07:06:58",
+                "last_commit": "2022-05-30T08:16:01",
+                "CI_type": "GHA",
+                "sha": "232781772f148153d82fe19708de5465da3ace87"
+            },
+            {
+                "file_name": ".github/workflows/broken-links.yml",
+                "commit_date": "2022-01-04T10:50:22",
+                "status": "modified",
+                "first_commit": "2020-10-23T07:06:58",
+                "last_commit": "2022-05-30T08:16:01",
+                "CI_type": "GHA",
+                "sha": "595a4908fb2974e39213b6ba21002a2ec8d9cc9b"
+            },
+            {
+                "file_name": ".github/workflows/broken-links.yml",
+                "commit_date": "2021-07-23T11:43:34",
+                "status": "modified",
+                "first_commit": "2020-10-23T07:06:58",
+                "last_commit": "2022-05-30T08:16:01",
+                "CI_type": "GHA",
+                "sha": "bcc016a424fe8a7cd0b43f2a4e22487f6c1b115f"
+            },
+            {
+                "file_name": ".github/workflows/broken-links.yml",
+                "commit_date": "2020-10-23T07:20:00",
+                "status": "modified",
+                "first_commit": "2020-10-23T07:06:58",
+                "last_commit": "2022-05-30T08:16:01",
+                "CI_type": "GHA",
+                "sha": "27276fe460164cb7da94f85cf4ff6cc62a5527c3"
+            },
+            {
+                "file_name": ".github/workflows/broken-links.yml",
+                "commit_date": "2020-10-23T07:06:58",
+                "status": "added",
+                "first_commit": "2020-10-23T07:06:58",
+                "last_commit": "2022-05-30T08:16:01",
+                "CI_type": "GHA",
+                "sha": "3a6dd4c5d9092cb383795533b92a642f84d043d0"
+            }
+        ]
+    },
+    {
+        "Travis": [
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-12-21T11:38:40",
+                "status": "removed",
+                "first_commit": "2019-02-21T15:28:36",
+                "last_commit": "2020-12-21T11:38:40",
+                "CI_type": "Travis",
+                "sha": "237bdf706335ea5b4e6e700a18180f210116c0e4"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-11-03T14:35:36",
+                "status": "modified",
+                "first_commit": "2019-02-21T15:28:36",
+                "last_commit": "2020-12-21T11:38:40",
+                "CI_type": "Travis",
+                "sha": "f3b59ad206b3114158bd0028e0fa689cb937abd2"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-08-25T13:10:06",
+                "status": "modified",
+                "first_commit": "2019-02-21T15:28:36",
+                "last_commit": "2020-12-21T11:38:40",
+                "CI_type": "Travis",
+                "sha": "993dbfc5f04dff9a21bbd08cad34b14f237f86c5"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2019-08-04T12:35:23",
+                "status": "modified",
+                "first_commit": "2019-02-21T15:28:36",
+                "last_commit": "2020-12-21T11:38:40",
+                "CI_type": "Travis",
+                "sha": "f5ffbbf00b9f401e8c134aae3757adf964ccc32b"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2019-02-26T16:10:48",
+                "status": "modified",
+                "first_commit": "2019-02-21T15:28:36",
+                "last_commit": "2020-12-21T11:38:40",
+                "CI_type": "Travis",
+                "sha": "08b83f1404c4ace228b00a46257332837ab9009b"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2019-02-22T15:01:03",
+                "status": "modified",
+                "first_commit": "2019-02-21T15:28:36",
+                "last_commit": "2020-12-21T11:38:40",
+                "CI_type": "Travis",
+                "sha": "ddab825616f926633e6c3aba1a7b6c965dadd13a"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2019-02-21T15:28:36",
+                "status": "added",
+                "first_commit": "2019-02-21T15:28:36",
+                "last_commit": "2020-12-21T11:38:40",
+                "CI_type": "Travis",
+                "sha": "c976046802f9c7bf66cf47e638ea84307b24f552"
+            }
+        ]
+    },
+    {
+        "CircleCI": []
+    },
+    {
+        "AppVeyor": []
+    },
+    {
+        "Azure": []
+    },
+    {
+        "GitLab": []
+    },
+    {
+        "Jenkins": []
+    }
+]

@@ -1,0 +1,612 @@
+{
+    "id": 105526020,
+    "name": "fsharp",
+    "full_name": "JetBrains/fsharp",
+    "org_name": "JetBrains",
+    "org_id": 878437,
+    "created_at": "2017-10-02T11:16:05",
+    "pushed_at": "2023-03-09T12:26:40",
+    "updated_at": "2023-03-10T07:08:26",
+    "isFork": true,
+    "forks": 2,
+    "forks_count": 2,
+    "has_downloads": true,
+    "has_issues": false,
+    "has_pages": false,
+    "has_projects": true,
+    "has_wiki": true,
+    "homepage": null,
+    "language": "F#",
+    "open_issues": 0,
+    "open_issues_count": 0,
+    "size": 313755,
+    "stargazers_count": 4,
+    "subscribers_count": 11,
+    "watchers": 4,
+    "watchers_count": 4,
+    "first_commit": "2017-11-28T19:01:09",
+    "last_commit": "2018-02-17T18:45:22",
+    "branches_count": 10,
+    "commit_comments_count": 0,
+    "commits_count": 4705,
+    "countributors_count": 119,
+    "downloads_count": 0,
+    "events_count": 8,
+    "issues_count": 0,
+    "labels_count": 8,
+    "milestones_count": 0,
+    "PR_count": 0,
+    "open_PR_count": 0,
+    "readme_size": 10301,
+    "release_count": 0,
+    "topic_count": 0,
+    "15_commits": 769,
+    "16_commits": 2315,
+    "17_commits": 1295,
+    "18_commits": 50,
+    "19_commits": 0,
+    "20_commits": 0,
+    "21_commits": 0,
+    "22_commits": 0,
+    "15_committer_num": 35,
+    "16_committer_num": 43,
+    "17_committer_num": 66,
+    "18_committer_num": 16,
+    "19_committer_num": 0,
+    "20_committer_num": 0,
+    "21_committer_num": 0,
+    "22_committer_num": 0
+}{
+    "stargazer_date": {
+        "77411288": "2021-10-20T11:32:55",
+        "2621499": "2023-02-24T12:41:23",
+        "3221269": "2023-03-09T14:23:18",
+        "170088": "2023-03-10T07:08:26"
+    }
+}[
+    {
+        "GHA": {}
+    },
+    {
+        "Travis": [
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2017-03-31T18:43:23",
+                "status": "removed",
+                "first_commit": "2016-11-06T18:49:18",
+                "last_commit": "2017-03-31T18:43:23",
+                "CI_type": "Travis",
+                "sha": "3066c2826c099e035459bcf111d6383fecc4fac8"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2016-12-27T21:45:13",
+                "status": "modified",
+                "first_commit": "2016-11-06T18:49:18",
+                "last_commit": "2017-03-31T18:43:23",
+                "CI_type": "Travis",
+                "sha": "674ee407fe923baef6716d94954081bafe15122c"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2016-11-06T18:49:18",
+                "status": "added",
+                "first_commit": "2016-11-06T18:49:18",
+                "last_commit": "2017-03-31T18:43:23",
+                "CI_type": "Travis",
+                "sha": "66b5179082bae9a534252785b46f6beb330fa3fb"
+            }
+        ]
+    },
+    {
+        "CircleCI": []
+    },
+    {
+        "AppVeyor": [
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2017-02-12T08:12:13",
+                "status": "removed",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "3125a0530efef6692931660a2ffc278df6b5f046"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-12-13T23:50:41",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "d2a5ee6a7c6b1465d907c31429bfd8f17b762180"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-06-30T07:40:35",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "e368e313d657ad30adc078fbc89a57a4bd7db037"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-06-28T09:23:15",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "9e0d0da2c04396a438a631412d77213c305bddc9"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-06-21T11:24:28",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "c1512fc3c986dbcedd87a106824c49f827bfec0a"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-06-20T20:28:13",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "b3d130a5b46348a6681e34976d9e9fb228042789"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-04-13T22:54:49",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "cfd76f437c116d3931532344631b547ba51c7f45"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-04-11T23:15:48",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "8809b52afb2a92a14db4c734d59003c87bce4a4d"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-04-11T22:34:19",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "741e8df102f86d30be68eee2e7b9ea25bed2b0cd"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-04-11T20:33:41",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "6b248938f1463c19d78ef7171f6af3ba5ba5f0a4"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-04-08T21:20:49",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "fad2a69bd1c5028add6dfac4fac6373de74abd72"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-03-10T05:15:32",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "b1894c6e2184e057b5c81625e478c249d66e4cd2"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-03-09T23:08:31",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "034d39eb9a637c70af0fad8c50b83559bfe27759"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-03-09T22:51:52",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "4b40efae0a7d1aa1c0bd299020cff72ca753d923"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-02-11T00:20:12",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "660c2fed2c86eb2876fe5a00c8469b5b32e5026e"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-02-10T18:29:32",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "567150726bf7bd9ce1419159bdc37fccbced3f86"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-02-10T09:35:04",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "1f7442f6e98e10ae0e675fd542871c59901ff77d"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-02-09T23:10:01",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "8a57057473a48f9c1946994f20feeb7f2295c8a7"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-02-09T00:33:09",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "43183fe1bc86fdd6f6816dba90ecdc6cf6669160"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-02-09T00:28:33",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "d5a8e4919102cb786e98c6dfc6cd312e47058eb8"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-02-08T22:13:01",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "8ac76571ce0b0686ea401b705915ed02bade7b2b"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-02-08T17:47:54",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "dda6a761210198dc22f4387c676b9f4a978e8bc9"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-02-08T09:33:40",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "d6b952f33a80fa5f236a486e6767c66c80929d11"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-02-07T08:18:49",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "664062b5fc04227fb379270a5e10fe5c629bc4cc"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2016-02-06T17:53:34",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "13dffebb79872317788fe7f3a362b52109a95b50"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-12-22T01:04:07",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "3c858efaecb01e51b98a0a334fd1c29372e35f71"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-12-21T00:46:42",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "249d23f4acb4b6386d1eecff19b31b042ab5ca7e"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-12-19T03:02:53",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "0b73d30f5cccf17004e501fb94566259875320f5"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-12-18T00:32:48",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "1e33305e216f1b4166ec097cc389f32db0fce3a1"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-12-17T00:21:43",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "3ecb5e5be9880f6cad6c33e310a650aa2ce05a8e"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-12-18T00:32:48",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "89ae4a7183df0c2306c61e8897a6084594fc0e0c"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-12-17T00:21:43",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "dcedbc8e5fae57eda41e25a28d5dd0c115d36ecf"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-12-13T21:29:04",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "6bff0d341bc442b8b5dbc4cfca9683cc123d3737"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-12-13T05:01:50",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "673534d5a8d359a9c41c00051601ce57c94f9bb2"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-12-12T23:45:22",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "e0be26e805fe9a731d9f863cb110bd6c4df1e950"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-12-11T23:04:51",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "345f5ed07a6e45c8a382f4e309643ef91608ccfb"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-12-11T22:48:49",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "b63b91981953df69cbe3e7d7c707b0ae895fea38"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-10-29T09:17:40",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "8f99d1996af2e2467c69a94e49fcae0cc17e56de"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-09-08T22:50:32",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "9157d60b574484d3900f82d1eff76808e96637ce"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-02-06T10:26:02",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "3b87fcf0758f475070cdf86892835432c4be98f2"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-02-06T06:23:01",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "0fad698a5293a3c10011e5feedcee29d021811d1"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-02-04T19:22:49",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "c023732b2f5cd0278cb42012c72ae7b6c2d5ec31"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-02-04T19:28:15",
+                "status": "added",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "9ebdb050c975415bd138bacea3dfc7bd1c394ef2"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-02-04T01:11:39",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "f979a8f33f71ded79db134dd9a32c7c6144ed5ef"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-02-02T08:02:54",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "cc10ab300fcd9cfef00efb921e8a9f75930bbe30"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-02-02T07:18:38",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "3c8226f5c28503ceb5e45c7a2f86d521398a1ed1"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-02-02T07:07:47",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "5a6b63a5f6161ec6a94e1d3aaceec6980cdf96ee"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-02-02T06:33:51",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "351985dfc02426e9615a90232041ab0a768f98bc"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-02-02T06:17:10",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "451bab3b664c71d264f57dbccb5fdca7a839e963"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-02-02T06:15:47",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "0eb9bed15f206e5259d2c97297ffcafd0d9fb736"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-01-31T23:48:22",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "6eb0c75f562129a6b252009602a4bbdf9da57a27"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-01-29T01:19:22",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "1d8f99f56e20f7092a768c00d3c363c7afe9a730"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-01-28T23:19:40",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "140d0b344390b1611d460f03e255b792d818e27b"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-01-28T14:39:52",
+                "status": "modified",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "b8ffef20574ce99883fca90e70b4beecf6239e13"
+            },
+            {
+                "file_name": "/appveyor.yml",
+                "commit_date": "2015-01-28T14:23:07",
+                "status": "added",
+                "first_commit": "2015-01-28T14:23:07",
+                "last_commit": "2017-02-12T08:12:13",
+                "CI_type": "AppVeyor",
+                "sha": "98e612fd3f4e01c59c0b63fe5556a040c4bfa077"
+            }
+        ]
+    },
+    {
+        "Azure": []
+    },
+    {
+        "GitLab": []
+    },
+    {
+        "Jenkins": []
+    }
+]

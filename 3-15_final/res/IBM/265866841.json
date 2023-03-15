@@ -1,0 +1,603 @@
+{
+    "id": 265866841,
+    "name": "detect-secrets",
+    "full_name": "IBM/detect-secrets",
+    "org_name": "International Business Machines",
+    "org_id": 1459110,
+    "created_at": "2020-05-21T14:16:31",
+    "pushed_at": "2023-03-07T04:38:10",
+    "updated_at": "2023-02-28T12:09:54",
+    "isFork": true,
+    "forks": 29,
+    "forks_count": 29,
+    "has_downloads": true,
+    "has_issues": true,
+    "has_pages": false,
+    "has_projects": true,
+    "has_wiki": true,
+    "homepage": "",
+    "language": "Python",
+    "open_issues": 12,
+    "open_issues_count": 12,
+    "size": 1870,
+    "stargazers_count": 58,
+    "subscribers_count": 3,
+    "watchers": 58,
+    "watchers_count": 58,
+    "first_commit": "2022-03-24T14:47:08",
+    "last_commit": "2023-01-31T23:20:41",
+    "branches_count": 15,
+    "commit_comments_count": 0,
+    "commits_count": 1297,
+    "countributors_count": 40,
+    "downloads_count": 0,
+    "events_count": 98,
+    "issues_count": 12,
+    "labels_count": 10,
+    "milestones_count": 0,
+    "PR_count": 105,
+    "open_PR_count": 3,
+    "readme_size": 7770,
+    "release_count": 0,
+    "topic_count": 0,
+    "15_commits": 0,
+    "16_commits": 0,
+    "17_commits": 2,
+    "18_commits": 354,
+    "19_commits": 375,
+    "20_commits": 214,
+    "21_commits": 148,
+    "22_commits": 200,
+    "15_committer_num": 0,
+    "16_committer_num": 0,
+    "17_committer_num": 1,
+    "18_committer_num": 9,
+    "19_committer_num": 19,
+    "20_committer_num": 9,
+    "21_committer_num": 8,
+    "22_committer_num": 9
+}{
+    "stargazer_date": {
+        "3076393": "2020-05-30T19:59:58",
+        "1007667": "2020-05-30T20:07:51",
+        "6317233": "2020-05-30T20:53:41",
+        "60426469": "2020-05-30T21:11:17",
+        "43787929": "2020-05-30T23:51:19",
+        "16433547": "2020-05-31T02:54:38",
+        "3910210": "2020-05-31T03:51:50",
+        "440583": "2020-05-31T04:59:44",
+        "100848": "2020-05-31T05:55:54",
+        "16417098": "2020-05-31T08:00:49",
+        "9888550": "2020-05-31T08:24:34",
+        "185902": "2020-05-31T15:16:36",
+        "259982": "2020-06-03T23:16:52",
+        "8690255": "2020-08-10T15:19:00",
+        "1316309": "2021-01-29T13:01:56",
+        "855219": "2021-03-18T20:58:30",
+        "148634": "2021-03-19T00:50:01",
+        "16067836": "2021-03-19T05:32:26",
+        "31742059": "2021-04-27T13:12:56",
+        "40695500": "2021-05-05T23:51:07",
+        "8481595": "2021-05-07T09:51:27",
+        "77101464": "2021-05-11T07:38:02",
+        "13590524": "2021-05-19T17:04:44",
+        "29369954": "2021-08-02T08:27:33",
+        "50124824": "2021-08-21T19:16:02",
+        "1694318": "2021-10-24T01:04:53",
+        "18036223": "2021-10-28T17:25:39",
+        "62179149": "2021-10-31T19:48:34",
+        "2576041": "2021-11-10T00:06:13",
+        "32095693": "2021-11-22T02:42:20",
+        "787057": "2021-11-30T14:22:45",
+        "136675": "2021-12-21T12:22:18",
+        "8842760": "2021-12-27T14:48:39",
+        "58807068": "2022-01-03T09:18:59",
+        "89566525": "2022-01-05T11:28:50",
+        "1637291": "2022-01-05T19:51:33",
+        "43183393": "2022-01-07T01:44:07",
+        "41019723": "2022-01-14T11:27:41",
+        "22332276": "2022-01-14T14:42:57",
+        "62580949": "2022-01-14T22:04:49",
+        "10725674": "2022-02-03T20:51:27",
+        "5937284": "2022-02-14T12:50:09",
+        "16136760": "2022-03-30T01:54:53",
+        "7314021": "2022-04-21T13:02:33",
+        "29415680": "2022-05-17T17:27:59",
+        "34898038": "2022-06-02T22:13:58",
+        "9758567": "2022-06-06T16:05:19",
+        "1306920": "2022-08-16T13:51:49",
+        "16852385": "2022-09-01T03:08:34",
+        "59620": "2022-09-13T14:05:26",
+        "18338060": "2022-09-21T04:43:04",
+        "77745775": "2022-10-18T16:09:07",
+        "87041881": "2022-10-22T01:38:02",
+        "11364402": "2022-10-25T14:26:28",
+        "5006784": "2022-10-30T01:08:06",
+        "19164094": "2022-11-21T13:21:08",
+        "75852430": "2023-01-26T16:54:28",
+        "6307732": "2023-02-28T12:09:54"
+    }
+}[
+    {
+        "GHA": [
+            {
+                "file_name": ".github/workflows/codeql-analysis.yml",
+                "commit_date": "2022-06-02T15:08:10",
+                "status": "added",
+                "first_commit": "2022-06-02T15:08:10",
+                "last_commit": "2022-06-02T15:08:10",
+                "CI_type": "GHA",
+                "sha": "5da259e536a02e05dfd902fb3a33193bbd759464"
+            }
+        ]
+    },
+    {
+        "Travis": [
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2022-12-29T16:52:42",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "bd2c5db0aa44faadf3612e32e83ff3ef5cbb3350"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2022-12-29T16:52:00",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "79ce2ecae89f7352ba87761406226fb7404c0fbb"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2022-12-29T16:42:06",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "a341ef059ff8f6e116e76b10610ea3ba7d818842"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2022-12-29T16:23:32",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "afce987448a16b2dac6a070473a20f9a23ca36c3"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2022-12-29T15:51:47",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "1130956e37a9432e903e087a0f67a11b546440cd"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2022-12-20T19:03:11",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "128cb8114819f4829b8170997854b7cdf6c1f5f4"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2022-06-02T15:08:10",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "5da259e536a02e05dfd902fb3a33193bbd759464"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2022-03-21T15:30:14",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "dff090c247cf2f7409aa096aafbd30af0b4c1b93"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2021-08-16T21:47:00",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "0b0e4caee3d47d7ccaab2b874aea1d97cc64ab8f"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2021-08-16T21:04:44",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "3c97d53ea983b047912f15b0f96c294109fb8ddf"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2021-08-16T20:53:00",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "bf5b36370b41236e7c4e7f2d59a6882a86c0ca71"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2021-08-16T20:41:00",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "e765ae614a63697390adc017129a95a8d504fa52"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2021-08-16T20:27:29",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "b43c59662afa0c3ae9583b52f9c8b86184aadf72"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2021-08-16T19:20:53",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "2669ea28013ddf268b4fb86e5c70bc13ae955fe5"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2021-08-16T17:42:03",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "a2e5843783230f37c1279c0d3d455b3c3ddf5d92"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2021-08-16T17:37:27",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "84cee82c634a2567c4714afb81805ac1b16fc736"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2021-08-13T16:02:48",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "094b716dcb86187aa7abc8c9a5d3b17d4ab4da87"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2021-08-11T18:46:30",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "1c022ed8a9f94ffee01c3fae4193132c118c4906"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-09-17T19:47:27",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "14c90c515fd85998d29ee2f797ed5cd6d5e3edc7"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-06-24T15:20:19",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "a498b577be40c9ffa5a5719c68dfa58d73f3270a"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-06-16T17:44:05",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "bd031aa7eb41baeda4de9eb3b5ec534270f9454c"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-06-11T15:56:45",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "c7fd220d0bbf131ea6ac60d7ade986249321f433"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-05-28T02:22:52",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "b49cc4eb1da251bc7f7079a94747f4a6821bc383"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-05-27T20:40:48",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "60f5db6316d3d134484ddde24a8f2e2708438df4"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-05-27T01:47:07",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "5d6a04cb966df2cb23c1fb78cb846afc0640d25a"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-02-24T16:11:25",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "df67b22f861a6d0619abd138eb39306cc9932889"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-02-24T15:26:46",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "03f61de8562f6581c34a4ca9223be5cd6a78bb96"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-02-24T15:00:00",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "9aa716088684ced8e15f9f31466e31bbdbe7e326"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-02-23T17:28:26",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "06b0c4188b2cdc07c921c436db9d22d9d8ed0ed9"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-02-21T22:29:19",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "87e9b5f1b791370c0db7710bfdc4ec0b9ae73888"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-02-21T20:19:24",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "8ab0bacbe7c513add0daa4b0035ca6d490458854"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-02-21T16:40:19",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "ed3101632d6ed253ea858152edd45c96af651ac6"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-02-20T18:33:28",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "51637a3c2465dce05a36365c3657319f537061f9"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-02-18T21:49:54",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "e4914f71b262a8fb715b0ee0bc174f89ea4498f3"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-02-17T21:52:25",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "cfa7c2020286d9f2c4a7093b9a57d04bc62f0c20"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-02-17T20:16:30",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "325bbb6e1469819715e4e9ad8eb5116cdbe9100d"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-02-05T22:03:18",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "2db47a32d1b417502620dbb1ac0953fdcf4e18fa"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-02-05T21:38:00",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "6d8a30744cd198b22d74e11007e02b3fd879e8e4"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-01-16T14:13:25",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "57698216259b510af1733b5c44842befbfde4e97"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2019-09-24T21:14:31",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "92f16615a8d2c5c9615221ae0567d708b8e2fa66"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2019-08-08T15:01:29",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "7af4a0576d62cee546283cb9e121b9a8b1d5e2b2"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2019-08-07T14:05:35",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "b2aee8bec2f50aa632edc0a3742439e9cc7c8e75"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-03-30T22:54:32",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "141819d26f2a65d0f336ad0f249bf1b837fe4695"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-03-28T00:16:25",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "3e39b765b32f2b5829621869ed071c3179dd65ed"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-02-25T18:24:20",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "f245084422282143474eae69670140b7db126339"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-02-25T13:56:26",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "ae1967aa80c047441542aaecd05debb869aa0285"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2019-05-28T20:19:16",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "b929f6f8662bc817c3f57b117dccdc3ef23dfb4f"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2019-01-07T13:20:17",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "5de2202fdb7f7d4da72a19359d334f4ce86c6ef5"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2018-04-09T20:17:55",
+                "status": "modified",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "0004b577d5b0b84c8e75b24b44e8c2442b98b595"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2018-04-09T19:46:48",
+                "status": "added",
+                "first_commit": "2018-04-09T19:46:48",
+                "last_commit": "2022-12-29T16:52:42",
+                "CI_type": "Travis",
+                "sha": "42a9d78779eb99bfca0f6fad95fe644160220e7f"
+            }
+        ]
+    },
+    {
+        "CircleCI": []
+    },
+    {
+        "AppVeyor": []
+    },
+    {
+        "Azure": []
+    },
+    {
+        "GitLab": []
+    },
+    {
+        "Jenkins": []
+    }
+]

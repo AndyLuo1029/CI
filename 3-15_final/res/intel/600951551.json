@@ -1,0 +1,624 @@
+{
+    "id": 600951551,
+    "name": "vpux-plugin-llvm",
+    "full_name": "intel/vpux-plugin-llvm",
+    "org_name": "Intel Corporation",
+    "org_id": 17888862,
+    "created_at": "2023-02-13T03:19:00",
+    "pushed_at": "2023-02-16T12:05:27",
+    "updated_at": "2023-02-13T03:19:00",
+    "isFork": false,
+    "forks": 2,
+    "forks_count": 2,
+    "has_downloads": true,
+    "has_issues": true,
+    "has_pages": false,
+    "has_projects": true,
+    "has_wiki": true,
+    "homepage": null,
+    "language": null,
+    "open_issues": 6,
+    "open_issues_count": 6,
+    "size": 977731,
+    "stargazers_count": 0,
+    "subscribers_count": 1,
+    "watchers": 0,
+    "watchers_count": 0,
+    "first_commit": "2023-02-14T23:54:25",
+    "last_commit": "2023-02-15T14:48:16",
+    "branches_count": 9,
+    "commit_comments_count": 0,
+    "commits_count": 452041,
+    "countributors_count": 369,
+    "downloads_count": 0,
+    "events_count": 27,
+    "issues_count": 6,
+    "labels_count": 12,
+    "milestones_count": 0,
+    "PR_count": 9,
+    "open_PR_count": 6,
+    "readme_size": 5678,
+    "release_count": 0,
+    "topic_count": 0,
+    "15_commits": 29554,
+    "16_commits": 32016,
+    "17_commits": 28838,
+    "18_commits": 28145,
+    "19_commits": 33596,
+    "20_commits": 34983,
+    "21_commits": 32815,
+    "22_commits": 14383,
+    "15_committer_num": 295,
+    "16_committer_num": 373,
+    "17_committer_num": 448,
+    "18_committer_num": 508,
+    "19_committer_num": 712,
+    "20_committer_num": 1098,
+    "21_committer_num": 1170,
+    "22_committer_num": 887
+}{
+    "stargazer_date": {}
+}[
+    {
+        "GHA": [
+            {
+                "file_name": ".github/workflows/libclang-abi-tests.yml",
+                "commit_date": "2023-01-31T21:28:45",
+                "status": "modified",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "d30b187f7d44f06eccb77394019ba1b942bd9132"
+            },
+            {
+                "file_name": ".github/workflows/libclang-abi-tests.yml",
+                "commit_date": "2022-08-02T09:02:15",
+                "status": "modified",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "be3587ae9ab2289179eea0bf6b241d796524062a"
+            },
+            {
+                "file_name": ".github/workflows/libclang-abi-tests.yml",
+                "commit_date": "2022-08-02T09:02:15",
+                "status": "modified",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "2d3d0f50ceb938c155a7283e684f28190d24d6ba"
+            },
+            {
+                "file_name": ".github/workflows/libclang-abi-tests.yml",
+                "commit_date": "2022-07-26T23:52:53",
+                "status": "added",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "9d05de2a912e60c12670c50ee61abb24335d8f16"
+            },
+            {
+                "file_name": ".github/workflows/release-tasks.yml",
+                "commit_date": "2023-01-31T21:28:45",
+                "status": "modified",
+                "first_commit": "2022-07-26T22:36:48",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "d30b187f7d44f06eccb77394019ba1b942bd9132"
+            },
+            {
+                "file_name": ".github/workflows/release-tasks.yml",
+                "commit_date": "2022-08-10T08:02:12",
+                "status": "modified",
+                "first_commit": "2022-07-26T22:36:48",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "46a315a3310d7dac88659f6d468437782f651bfe"
+            },
+            {
+                "file_name": ".github/workflows/release-tasks.yml",
+                "commit_date": "2022-07-26T22:36:48",
+                "status": "added",
+                "first_commit": "2022-07-26T22:36:48",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "66d755bbf83db8a3967c4647c41c49d57949ba74"
+            },
+            {
+                "file_name": ".github/workflows/llvm-bugs.yml",
+                "commit_date": "2023-01-31T21:28:45",
+                "status": "modified",
+                "first_commit": "2021-12-16T21:25:55",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "d30b187f7d44f06eccb77394019ba1b942bd9132"
+            },
+            {
+                "file_name": ".github/workflows/llvm-bugs.yml",
+                "commit_date": "2022-05-09T01:02:26",
+                "status": "modified",
+                "first_commit": "2021-12-16T21:25:55",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "7e5f75aa37801b9e4e9f0e3fb9f0358cbafb6f63"
+            },
+            {
+                "file_name": ".github/workflows/llvm-bugs.yml",
+                "commit_date": "2022-02-24T16:03:21",
+                "status": "modified",
+                "first_commit": "2021-12-16T21:25:55",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "64cc8b275603466bab23d02cb930a6b8897e5342"
+            },
+            {
+                "file_name": ".github/workflows/llvm-bugs.yml",
+                "commit_date": "2021-12-16T21:31:19",
+                "status": "modified",
+                "first_commit": "2021-12-16T21:25:55",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "ea927b504bb0d19e5f4ca47f5e4759c6c8971299"
+            },
+            {
+                "file_name": ".github/workflows/llvm-bugs.yml",
+                "commit_date": "2021-12-16T21:30:01",
+                "status": "modified",
+                "first_commit": "2021-12-16T21:25:55",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "764f96cb3bc3b19e2c7b8a30938f35a77e48e6dc"
+            },
+            {
+                "file_name": ".github/workflows/llvm-bugs.yml",
+                "commit_date": "2021-12-16T21:25:55",
+                "status": "added",
+                "first_commit": "2021-12-16T21:25:55",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "25285577874f642a6ec648c942e07d6ae2d77c1b"
+            },
+            {
+                "file_name": ".github/workflows/clang-tests.yml",
+                "commit_date": "2022-07-26T23:52:53",
+                "status": "added",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2022-07-26T23:52:53",
+                "CI_type": "GHA",
+                "sha": "9d05de2a912e60c12670c50ee61abb24335d8f16"
+            },
+            {
+                "file_name": ".github/workflows/repo-lockdown.yml",
+                "commit_date": "2023-01-31T21:28:45",
+                "status": "modified",
+                "first_commit": "2021-10-18T21:18:17",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "d30b187f7d44f06eccb77394019ba1b942bd9132"
+            },
+            {
+                "file_name": ".github/workflows/repo-lockdown.yml",
+                "commit_date": "2021-10-29T21:35:15",
+                "status": "modified",
+                "first_commit": "2021-10-18T21:18:17",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "84ccf0b89120a4e1356e30c0c5e83643288b28c9"
+            },
+            {
+                "file_name": ".github/workflows/repo-lockdown.yml",
+                "commit_date": "2021-10-18T21:31:44",
+                "status": "modified",
+                "first_commit": "2021-10-18T21:18:17",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "3be1f4b8fd53b42c412c307a2a377b0fd6e8cb76"
+            },
+            {
+                "file_name": ".github/workflows/repo-lockdown.yml",
+                "commit_date": "2021-10-18T21:18:17",
+                "status": "added",
+                "first_commit": "2021-10-18T21:18:17",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "20d397f853335e9f8e7b1f773e228bed527fd699"
+            },
+            {
+                "file_name": ".github/workflows/libclc-tests.yml",
+                "commit_date": "2022-07-26T23:52:53",
+                "status": "added",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2022-07-26T23:52:53",
+                "CI_type": "GHA",
+                "sha": "9d05de2a912e60c12670c50ee61abb24335d8f16"
+            },
+            {
+                "file_name": ".github/workflows/issue-subscriber.yml",
+                "commit_date": "2022-05-09T01:02:26",
+                "status": "modified",
+                "first_commit": "2022-01-05T18:30:30",
+                "last_commit": "2022-05-09T01:02:26",
+                "CI_type": "GHA",
+                "sha": "7e5f75aa37801b9e4e9f0e3fb9f0358cbafb6f63"
+            },
+            {
+                "file_name": ".github/workflows/issue-subscriber.yml",
+                "commit_date": "2022-02-21T12:02:55",
+                "status": "modified",
+                "first_commit": "2022-01-05T18:30:30",
+                "last_commit": "2022-05-09T01:02:26",
+                "CI_type": "GHA",
+                "sha": "90faaf811f38f649a7629db8e9a1d1637e38c516"
+            },
+            {
+                "file_name": ".github/workflows/issue-subscriber.yml",
+                "commit_date": "2022-02-04T00:11:04",
+                "status": "modified",
+                "first_commit": "2022-01-05T18:30:30",
+                "last_commit": "2022-05-09T01:02:26",
+                "CI_type": "GHA",
+                "sha": "e8485b744ab87444dd55631fa22eb7b18c9d52b8"
+            },
+            {
+                "file_name": ".github/workflows/issue-subscriber.yml",
+                "commit_date": "2022-01-15T01:08:01",
+                "status": "modified",
+                "first_commit": "2022-01-05T18:30:30",
+                "last_commit": "2022-05-09T01:02:26",
+                "CI_type": "GHA",
+                "sha": "a2adebf409ce2559618720039f19d61281b182bc"
+            },
+            {
+                "file_name": ".github/workflows/issue-subscriber.yml",
+                "commit_date": "2022-01-05T18:30:30",
+                "status": "added",
+                "first_commit": "2022-01-05T18:30:30",
+                "last_commit": "2022-05-09T01:02:26",
+                "CI_type": "GHA",
+                "sha": "dd48c6aff99233ff46ab08009e26baf3b2ed6f14"
+            },
+            {
+                "file_name": ".github/workflows/new-issues.yml",
+                "commit_date": "2022-05-09T01:02:26",
+                "status": "modified",
+                "first_commit": "2021-12-12T09:46:21",
+                "last_commit": "2022-05-09T01:02:26",
+                "CI_type": "GHA",
+                "sha": "7e5f75aa37801b9e4e9f0e3fb9f0358cbafb6f63"
+            },
+            {
+                "file_name": ".github/workflows/new-issues.yml",
+                "commit_date": "2021-12-14T17:01:52",
+                "status": "modified",
+                "first_commit": "2021-12-12T09:46:21",
+                "last_commit": "2022-05-09T01:02:26",
+                "CI_type": "GHA",
+                "sha": "84f2ef2f29535b5acc889dad61a707ea19450318"
+            },
+            {
+                "file_name": ".github/workflows/new-issues.yml",
+                "commit_date": "2021-12-12T21:38:26",
+                "status": "modified",
+                "first_commit": "2021-12-12T09:46:21",
+                "last_commit": "2022-05-09T01:02:26",
+                "CI_type": "GHA",
+                "sha": "8f64b5fd50ed9ace1ccfe3f5d64feb632828976d"
+            },
+            {
+                "file_name": ".github/workflows/new-issues.yml",
+                "commit_date": "2021-12-12T09:58:52",
+                "status": "modified",
+                "first_commit": "2021-12-12T09:46:21",
+                "last_commit": "2022-05-09T01:02:26",
+                "CI_type": "GHA",
+                "sha": "c16ced99370ef85d21f0da1c9cb352e17dd9981d"
+            },
+            {
+                "file_name": ".github/workflows/new-issues.yml",
+                "commit_date": "2021-12-12T09:54:29",
+                "status": "modified",
+                "first_commit": "2021-12-12T09:46:21",
+                "last_commit": "2022-05-09T01:02:26",
+                "CI_type": "GHA",
+                "sha": "f3c91b4f38048115a204069dd9af382aa97ac07f"
+            },
+            {
+                "file_name": ".github/workflows/new-issues.yml",
+                "commit_date": "2021-12-12T09:46:21",
+                "status": "added",
+                "first_commit": "2021-12-12T09:46:21",
+                "last_commit": "2022-05-09T01:02:26",
+                "CI_type": "GHA",
+                "sha": "5ccfb73756e915d0afed5c979e075bc18890fd4c"
+            },
+            {
+                "file_name": ".github/workflows/main-branch-sync.yml",
+                "commit_date": "2021-01-28T20:18:13",
+                "status": "removed",
+                "first_commit": "2020-11-16T19:06:58",
+                "last_commit": "2021-01-28T20:18:13",
+                "CI_type": "GHA",
+                "sha": "fe190cf6c99e03389ded12f435da1658d52b782d"
+            },
+            {
+                "file_name": ".github/workflows/main-branch-sync.yml",
+                "commit_date": "2020-12-07T06:16:36",
+                "status": "modified",
+                "first_commit": "2020-11-16T19:06:58",
+                "last_commit": "2021-01-28T20:18:13",
+                "CI_type": "GHA",
+                "sha": "62ec4ac90738a5f2d209ed28c822223e58aaaeb7"
+            },
+            {
+                "file_name": ".github/workflows/main-branch-sync.yml",
+                "commit_date": "2020-12-02T00:22:30",
+                "status": "modified",
+                "first_commit": "2020-11-16T19:06:58",
+                "last_commit": "2021-01-28T20:18:13",
+                "CI_type": "GHA",
+                "sha": "91843f79498dac6c2de734ac41a2ab1eb3676663"
+            },
+            {
+                "file_name": ".github/workflows/main-branch-sync.yml",
+                "commit_date": "2020-11-30T20:25:43",
+                "status": "modified",
+                "first_commit": "2020-11-16T19:06:58",
+                "last_commit": "2021-01-28T20:18:13",
+                "CI_type": "GHA",
+                "sha": "4e85e0ca904d154b1ee30b213e8d7bfb8afaa25d"
+            },
+            {
+                "file_name": ".github/workflows/main-branch-sync.yml",
+                "commit_date": "2020-11-25T22:43:18",
+                "status": "modified",
+                "first_commit": "2020-11-16T19:06:58",
+                "last_commit": "2021-01-28T20:18:13",
+                "CI_type": "GHA",
+                "sha": "c9eae09251e3e7d5a77a5970dfd59a4e81c9b936"
+            },
+            {
+                "file_name": ".github/workflows/main-branch-sync.yml",
+                "commit_date": "2020-11-16T19:06:58",
+                "status": "added",
+                "first_commit": "2020-11-16T19:06:58",
+                "last_commit": "2021-01-28T20:18:13",
+                "CI_type": "GHA",
+                "sha": "da886bf471e7a2b060c6cb07e2a4678598aee5b6"
+            },
+            {
+                "file_name": ".github/workflows/lld-tests.yml",
+                "commit_date": "2022-07-26T23:52:53",
+                "status": "added",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2022-07-26T23:52:53",
+                "CI_type": "GHA",
+                "sha": "9d05de2a912e60c12670c50ee61abb24335d8f16"
+            },
+            {
+                "file_name": ".github/workflows/version-check.yml",
+                "commit_date": "2023-01-31T21:28:45",
+                "status": "modified",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "d30b187f7d44f06eccb77394019ba1b942bd9132"
+            },
+            {
+                "file_name": ".github/workflows/version-check.yml",
+                "commit_date": "2022-07-26T23:52:53",
+                "status": "added",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "9d05de2a912e60c12670c50ee61abb24335d8f16"
+            },
+            {
+                "file_name": ".github/workflows/lldb-tests.yml",
+                "commit_date": "2023-01-31T21:28:45",
+                "status": "modified",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "d30b187f7d44f06eccb77394019ba1b942bd9132"
+            },
+            {
+                "file_name": ".github/workflows/lldb-tests.yml",
+                "commit_date": "2022-07-26T23:52:53",
+                "status": "added",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "9d05de2a912e60c12670c50ee61abb24335d8f16"
+            },
+            {
+                "file_name": ".github/workflows/issue-release-workflow.yml",
+                "commit_date": "2023-01-31T21:28:45",
+                "status": "modified",
+                "first_commit": "2022-02-03T22:44:07",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "d30b187f7d44f06eccb77394019ba1b942bd9132"
+            },
+            {
+                "file_name": ".github/workflows/issue-release-workflow.yml",
+                "commit_date": "2022-07-29T16:59:55",
+                "status": "modified",
+                "first_commit": "2022-02-03T22:44:07",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "b9a662919344355d81f7eda4c8ebdd3d1ecd808c"
+            },
+            {
+                "file_name": ".github/workflows/issue-release-workflow.yml",
+                "commit_date": "2022-07-28T03:13:21",
+                "status": "modified",
+                "first_commit": "2022-02-03T22:44:07",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "b1dace63b1e64dc501f964ade5aa62bb7ff6f9cf"
+            },
+            {
+                "file_name": ".github/workflows/issue-release-workflow.yml",
+                "commit_date": "2022-07-26T22:18:23",
+                "status": "modified",
+                "first_commit": "2022-02-03T22:44:07",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "f673dcc693da741e1662b516bbd8053e39a4fbc2"
+            },
+            {
+                "file_name": ".github/workflows/issue-release-workflow.yml",
+                "commit_date": "2022-05-09T01:02:26",
+                "status": "modified",
+                "first_commit": "2022-02-03T22:44:07",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "7e5f75aa37801b9e4e9f0e3fb9f0358cbafb6f63"
+            },
+            {
+                "file_name": ".github/workflows/issue-release-workflow.yml",
+                "commit_date": "2022-02-17T06:18:03",
+                "status": "modified",
+                "first_commit": "2022-02-03T22:44:07",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "fee491a10a3277c51115a7ab6e79fe5223618e86"
+            },
+            {
+                "file_name": ".github/workflows/issue-release-workflow.yml",
+                "commit_date": "2022-02-05T06:22:01",
+                "status": "modified",
+                "first_commit": "2022-02-03T22:44:07",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "9bbe44fb9d692047a3b35a691e85f32fbb4ae3b6"
+            },
+            {
+                "file_name": ".github/workflows/issue-release-workflow.yml",
+                "commit_date": "2022-02-03T22:44:07",
+                "status": "added",
+                "first_commit": "2022-02-03T22:44:07",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "daf82a51a0c2ba9990cde172a4a1b8c1004d584d"
+            },
+            {
+                "file_name": ".github/workflows/llvm-project-tests.yml",
+                "commit_date": "2023-01-31T21:28:45",
+                "status": "modified",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "d30b187f7d44f06eccb77394019ba1b942bd9132"
+            },
+            {
+                "file_name": ".github/workflows/llvm-project-tests.yml",
+                "commit_date": "2023-01-27T19:23:19",
+                "status": "modified",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "683b83abaab4e7f10446bec4007277430cd987ea"
+            },
+            {
+                "file_name": ".github/workflows/llvm-project-tests.yml",
+                "commit_date": "2023-01-27T19:06:18",
+                "status": "modified",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "9f307a02bebf9029079f3d13c8b0ccd3b09c5241"
+            },
+            {
+                "file_name": ".github/workflows/llvm-project-tests.yml",
+                "commit_date": "2022-08-20T07:15:14",
+                "status": "modified",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "99020b3c73c1e22fa388be8fd0c44391d40b3a38"
+            },
+            {
+                "file_name": ".github/workflows/llvm-project-tests.yml",
+                "commit_date": "2022-07-27T22:23:24",
+                "status": "modified",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "d9e02a30b16ea65a7da87913c40af03e22c9571f"
+            },
+            {
+                "file_name": ".github/workflows/llvm-project-tests.yml",
+                "commit_date": "2022-07-27T00:24:18",
+                "status": "modified",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "858ded9cba11aa108eaa67433983cb3af14f6fbf"
+            },
+            {
+                "file_name": ".github/workflows/llvm-project-tests.yml",
+                "commit_date": "2022-07-26T23:52:53",
+                "status": "added",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "9d05de2a912e60c12670c50ee61abb24335d8f16"
+            },
+            {
+                "file_name": ".github/workflows/closed-issues.yml",
+                "commit_date": "2022-05-09T01:02:26",
+                "status": "modified",
+                "first_commit": "2022-01-27T20:06:15",
+                "last_commit": "2022-05-09T01:02:26",
+                "CI_type": "GHA",
+                "sha": "7e5f75aa37801b9e4e9f0e3fb9f0358cbafb6f63"
+            },
+            {
+                "file_name": ".github/workflows/closed-issues.yml",
+                "commit_date": "2022-01-27T20:06:15",
+                "status": "added",
+                "first_commit": "2022-01-27T20:06:15",
+                "last_commit": "2022-05-09T01:02:26",
+                "CI_type": "GHA",
+                "sha": "1f26aa42cedc110b5fab7516e33a3c432f473129"
+            },
+            {
+                "file_name": ".github/workflows/llvm-tests.yml",
+                "commit_date": "2023-01-31T21:28:45",
+                "status": "modified",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "d30b187f7d44f06eccb77394019ba1b942bd9132"
+            },
+            {
+                "file_name": ".github/workflows/llvm-tests.yml",
+                "commit_date": "2022-07-26T23:52:53",
+                "status": "added",
+                "first_commit": "2022-07-26T23:52:53",
+                "last_commit": "2023-01-31T21:28:45",
+                "CI_type": "GHA",
+                "sha": "9d05de2a912e60c12670c50ee61abb24335d8f16"
+            }
+        ]
+    },
+    {
+        "Travis": []
+    },
+    {
+        "CircleCI": []
+    },
+    {
+        "AppVeyor": []
+    },
+    {
+        "Azure": []
+    },
+    {
+        "GitLab": []
+    },
+    {
+        "Jenkins": []
+    }
+]

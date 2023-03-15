@@ -28,18 +28,26 @@ csvfile2 = open("res/Commits1_"+time.strftime("%Y-%m %H:%M", time.localtime())+"
 w1 = csv.writer(csvfile1)
 w2 = csv.writer(csvfile2)
 # write the head row
-w1.writerow(['organization_name','repo_full_name','URL','contributors_num','description','is_fork','repo_updated_at','repo_firstcommit','repo_lastcommit','15_commits','16_commits','17_commits','18_commits','19_commits','20_commits','21_commits','22_commits'])
-w2.writerow(['URL','repo_fullname','file','a_specific_commit','its_commit_date','its_event(File.status)','file_firstcommit','file_lastcommit','file_ci_type'])
+w1.writerow(['organization_name','repo_id','repo_full_name','URL','total_contributors_num','description','is_fork','repo_updated_at','repo_firstcommit','repo_lastcommit','15_commits','16_commits','17_commits','18_commits','19_commits','20_commits','21_commits','22_commits','15_committer_num','16_committer_num','17_committer_num','18_committer_num','19_committer_num','20_committer_num','21_committer_num','22_committer_num'])
+w2.writerow(['URL','repo_id','repo_fullname','file','a_specific_commit','its_commit_date','its_event(File.status)','file_firstcommit','file_lastcommit','file_ci_type'])
 
 now_comp = ""
 now_repo_id = -1
 
-def get_year_commmits(begin_year, repo):
+def get_year_commmits_and_committer(begin_year, repo):
     end_year = begin_year+1
     begin_dt = datetime(begin_year,1,1)
     end_dt = datetime(end_year,1,1)
-    commits_count = 0 if(str(type(repo.get_commits(since=begin_dt,until=end_dt)))=="<class \'NoneType\'>") else repo.get_commits(since=begin_dt,until=end_dt).totalCount
-    return commits_count
+    temp = repo.get_commits(since=begin_dt,until=end_dt)
+    # get commits num
+    commits_count = 0 if(str(type(temp))=="<class \'NoneType\'>") else temp.totalCount
+    
+    # get committer
+    committers = set()
+    for i in temp:
+        committers.add(i.committer.email)
+    committers_num = len(committers)
+    return commits_count, committers_num
 
 def company_repo_crawler(current_comp = "", current_repo_id = -1):
     try:
@@ -81,12 +89,15 @@ def company_repo_crawler(current_comp = "", current_repo_id = -1):
 
                 # get 2015 to 2022 commits count
                 commits_cnt = []
+                committer_num = []
                 for i in range(2015,2023):
-                    cmt=get_year_commmits(i,repo)
+                    cmt, committers=get_year_commmits_and_committer(i,repo)
+                    # append commits_count and committer_num into list
                     commits_cnt.append(cmt)
+                    committer_num.append(committers)
             
-                reco = [org_name,repo.name,repo.url,repo.get_contributors().totalCount,repo.description,repo.fork,repo.updated_at,firstcommit,lastcommit]
-                reco = reco + commits_cnt
+                reco = [org_name,repo.id,repo.name,repo.url,repo.get_contributors().totalCount,repo.description,repo.fork,repo.updated_at,firstcommit,lastcommit]
+                reco = reco + commits_cnt + committer_num
                 print("writing repos info...")
                 w1.writerow(reco)
 
@@ -120,7 +131,7 @@ def company_repo_crawler(current_comp = "", current_repo_id = -1):
                                             break
                                     status = 'NoneType' if(str(type(file))=="<class \'NoneType\'>") else file.status
                                     # if(status == "added" or status == "removed" or status == "renamed"):
-                                    w2.writerow([repo.url,repo.name,yml,cm.sha,cm.commit.author.date,status,file_firstcommit,file_lastcommit,'GHA'])
+                                    w2.writerow([repo.url,repo.id,repo.name,yml,cm.sha,cm.commit.author.date,status,file_firstcommit,file_lastcommit,'GHA'])
                                     use_CI = True
                         # break when successfully ran all the code
                         GHA_yml.clear()
@@ -308,7 +319,7 @@ def company_repo_crawler(current_comp = "", current_repo_id = -1):
                 
                 # write no-CI-using-history repo's info in commits.csv 
                 if(use_CI == False):
-                    w2.writerow([repo.url,repo.name,"NULL","NULL","NULL","NULL","NULL","NULL","NULL"])
+                    w2.writerow([repo.url,repo.id,repo.name,"NULL","NULL","NULL","NULL","NULL","NULL","NULL"])
 
     except RateLimitExceededException:
         RStime = Github(access_token).rate_limiting_resettime
@@ -353,7 +364,7 @@ def six_CI_data(repo,path,filename,CI):
                         break
                 status = 'NoneType' if(str(type(file))=="<class \'NoneType\'>") else file.status
                 # if(status == "added" or status == "removed" or status == "renamed"):
-                w2.writerow([repo.url,repo.name,path,cm.sha,cm.commit.author.date,status,file_firstcommit,file_lastcommit,CI])
+                w2.writerow([repo.url,repo.id,repo.name,path,cm.sha,cm.commit.author.date,status,file_firstcommit,file_lastcommit,CI])
                 use_CI = True
             
             return use_CI

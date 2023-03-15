@@ -1,0 +1,1694 @@
+{
+    "id": 377964732,
+    "name": "weblogic-azure",
+    "full_name": "oracle/weblogic-azure",
+    "org_name": "Oracle",
+    "org_id": 4430336,
+    "created_at": "2021-06-17T21:28:38",
+    "pushed_at": "2023-03-02T14:13:44",
+    "updated_at": "2022-12-14T23:44:02",
+    "isFork": false,
+    "forks": 18,
+    "forks_count": 18,
+    "has_downloads": true,
+    "has_issues": true,
+    "has_pages": true,
+    "has_projects": true,
+    "has_wiki": true,
+    "homepage": "",
+    "language": "Shell",
+    "open_issues": 24,
+    "open_issues_count": 24,
+    "size": 14579,
+    "stargazers_count": 7,
+    "subscribers_count": 20,
+    "watchers": 7,
+    "watchers_count": 7,
+    "first_commit": "2022-07-15T08:19:55",
+    "last_commit": "2023-03-02T14:13:44",
+    "branches_count": 4,
+    "commit_comments_count": 0,
+    "commits_count": 685,
+    "countributors_count": 12,
+    "downloads_count": 0,
+    "events_count": 136,
+    "issues_count": 24,
+    "labels_count": 11,
+    "milestones_count": 0,
+    "PR_count": 185,
+    "open_PR_count": 1,
+    "readme_size": 14226,
+    "release_count": 0,
+    "topic_count": 5,
+    "15_commits": 0,
+    "16_commits": 0,
+    "17_commits": 0,
+    "18_commits": 0,
+    "19_commits": 4,
+    "20_commits": 1,
+    "21_commits": 333,
+    "22_commits": 332,
+    "15_committer_num": 0,
+    "16_committer_num": 0,
+    "17_committer_num": 0,
+    "18_committer_num": 0,
+    "19_committer_num": 0,
+    "20_committer_num": 0,
+    "21_committer_num": 9,
+    "22_committer_num": 10
+}{
+    "stargazer_date": {
+        "27861489": "2021-06-17T21:50:25",
+        "36834780": "2021-07-02T16:06:21",
+        "29789603": "2021-08-26T05:37:22",
+        "59823457": "2021-11-11T01:55:28",
+        "10318368": "2022-02-24T19:09:26",
+        "48108796": "2022-03-02T23:06:22",
+        "18152044": "2022-10-03T14:34:42"
+    }
+}[
+    {
+        "GHA": [
+            {
+                "file_name": ".github/workflows/syncupWithUpstream.yml",
+                "commit_date": "2021-11-04T01:50:32",
+                "status": "modified",
+                "first_commit": "2021-10-22T07:19:36",
+                "last_commit": "2021-11-04T01:50:32",
+                "CI_type": "GHA",
+                "sha": "cf79725da07da7d637abd02a406e6e8e69e15f03"
+            },
+            {
+                "file_name": ".github/workflows/syncupWithUpstream.yml",
+                "commit_date": "2021-10-27T02:40:33",
+                "status": "modified",
+                "first_commit": "2021-10-22T07:19:36",
+                "last_commit": "2021-11-04T01:50:32",
+                "CI_type": "GHA",
+                "sha": "5b54d00b729e772a6383f71155f7978344bb792c"
+            },
+            {
+                "file_name": ".github/workflows/syncupWithUpstream.yml",
+                "commit_date": "2021-10-26T01:55:58",
+                "status": "modified",
+                "first_commit": "2021-10-22T07:19:36",
+                "last_commit": "2021-11-04T01:50:32",
+                "CI_type": "GHA",
+                "sha": "e2b2ae20e5ca125bf80bb9cf59ebfff642266a70"
+            },
+            {
+                "file_name": ".github/workflows/syncupWithUpstream.yml",
+                "commit_date": "2021-10-22T22:43:17",
+                "status": "modified",
+                "first_commit": "2021-10-22T07:19:36",
+                "last_commit": "2021-11-04T01:50:32",
+                "CI_type": "GHA",
+                "sha": "231207cd1c9a8e101616324f347c209535d507f6"
+            },
+            {
+                "file_name": ".github/workflows/syncupWithUpstream.yml",
+                "commit_date": "2021-10-22T07:19:36",
+                "status": "added",
+                "first_commit": "2021-10-22T07:19:36",
+                "last_commit": "2021-11-04T01:50:32",
+                "CI_type": "GHA",
+                "sha": "d92e5f1d846488d6f0da725bac563b4566584c11"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmDynamicCluster.yml",
+                "commit_date": "2022-10-24T01:25:10",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "da4f69329ce548933ab81a8f11cf24dabceab6e7"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmDynamicCluster.yml",
+                "commit_date": "2022-06-17T05:15:01",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "99d38bfda23d2633dee17f639c821ed8de4305e9"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmDynamicCluster.yml",
+                "commit_date": "2022-06-17T05:02:57",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "8644a4d3e2987a97ab3ff5a829aa9a0aa9f353c4"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmDynamicCluster.yml",
+                "commit_date": "2022-06-17T04:54:33",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "21d152488bd5e5c7645717ea080f2b928830aaa3"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmDynamicCluster.yml",
+                "commit_date": "2022-04-26T15:34:45",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "9825926e59c9c89ac3389b500b3bc7191d509816"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmDynamicCluster.yml",
+                "commit_date": "2022-04-22T21:06:07",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "6f2ece3496e80fddb3263caca0ec519d701228fe"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmDynamicCluster.yml",
+                "commit_date": "2022-04-08T06:04:07",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "01a3093587b7246ce6272d7122d9847860d43e7b"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmDynamicCluster.yml",
+                "commit_date": "2022-02-15T07:38:06",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "4833ed712db09bd9f7f9a4e2af7cf782b14fed51"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmDynamicCluster.yml",
+                "commit_date": "2022-01-20T05:10:01",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "311f9c1d40ed052b4f4071c2f3491b51c94273e9"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmDynamicCluster.yml",
+                "commit_date": "2021-12-10T14:00:06",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "94beb049c86792501d657d7153e12d20b11ac410"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmDynamicCluster.yml",
+                "commit_date": "2021-12-09T23:10:58",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "84c9aa486839e884029a40f595dce46e1377a512"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmDynamicCluster.yml",
+                "commit_date": "2021-12-06T02:00:43",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "10cb618f4d003d1b653e8ceca75f4f37d889e587"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmDynamicCluster.yml",
+                "commit_date": "2021-12-03T06:38:17",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "442c3c05f4e5c020336feb59c057fd984e607560"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmDynamicCluster.yml",
+                "commit_date": "2021-11-25T13:57:30",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "7936809f182197ccff70f49b8f85214fd2ca5edb"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmDynamicCluster.yml",
+                "commit_date": "2021-11-10T09:34:49",
+                "status": "added",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "2239a892eb7eb9c55b492644867ea2f1c93b6930"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAks.yml",
+                "commit_date": "2021-10-27T02:40:33",
+                "status": "removed",
+                "first_commit": "2021-10-13T02:30:16",
+                "last_commit": "2021-10-27T02:40:33",
+                "CI_type": "GHA",
+                "sha": "5b54d00b729e772a6383f71155f7978344bb792c"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAks.yml",
+                "commit_date": "2021-10-22T22:31:10",
+                "status": "modified",
+                "first_commit": "2021-10-13T02:30:16",
+                "last_commit": "2021-10-27T02:40:33",
+                "CI_type": "GHA",
+                "sha": "3cfed6688e5f351ec95ae64a004d7d6947e0ed64"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAks.yml",
+                "commit_date": "2021-10-22T21:49:54",
+                "status": "modified",
+                "first_commit": "2021-10-13T02:30:16",
+                "last_commit": "2021-10-27T02:40:33",
+                "CI_type": "GHA",
+                "sha": "8c7aa038299c9a3a98086064aa7c1bfed1f13cbc"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAks.yml",
+                "commit_date": "2021-10-20T08:12:37",
+                "status": "modified",
+                "first_commit": "2021-10-13T02:30:16",
+                "last_commit": "2021-10-27T02:40:33",
+                "CI_type": "GHA",
+                "sha": "7878676b8033a0c5aa5c2d0b33cc6096c7a9ea59"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAks.yml",
+                "commit_date": "2021-10-15T01:05:29",
+                "status": "modified",
+                "first_commit": "2021-10-13T02:30:16",
+                "last_commit": "2021-10-27T02:40:33",
+                "CI_type": "GHA",
+                "sha": "342ac253f2100da453f8d380d429d0197c2bdeed"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAks.yml",
+                "commit_date": "2021-10-14T07:12:34",
+                "status": "modified",
+                "first_commit": "2021-10-13T02:30:16",
+                "last_commit": "2021-10-27T02:40:33",
+                "CI_type": "GHA",
+                "sha": "412c577cf7ada88c8e5e04f5d5200e69369046b5"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAks.yml",
+                "commit_date": "2021-10-13T02:30:16",
+                "status": "added",
+                "first_commit": "2021-10-13T02:30:16",
+                "last_commit": "2021-10-27T02:40:33",
+                "CI_type": "GHA",
+                "sha": "f5f270d25b31b4bdf1ba6c521616b4b8972458a3"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmAdmin.yml",
+                "commit_date": "2022-10-24T01:25:10",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "da4f69329ce548933ab81a8f11cf24dabceab6e7"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmAdmin.yml",
+                "commit_date": "2022-06-17T05:15:01",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "99d38bfda23d2633dee17f639c821ed8de4305e9"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmAdmin.yml",
+                "commit_date": "2022-06-17T04:54:33",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "21d152488bd5e5c7645717ea080f2b928830aaa3"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmAdmin.yml",
+                "commit_date": "2022-05-27T00:16:59",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "9bd4dd6c3f7b9312f6a152db510146fde5b174dd"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmAdmin.yml",
+                "commit_date": "2022-05-26T02:40:39",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "0e7ec27b9dfeec989279d2534ad3d83a4e43c85c"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmAdmin.yml",
+                "commit_date": "2022-04-26T15:34:45",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "9825926e59c9c89ac3389b500b3bc7191d509816"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmAdmin.yml",
+                "commit_date": "2022-04-22T21:06:07",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "6f2ece3496e80fddb3263caca0ec519d701228fe"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmAdmin.yml",
+                "commit_date": "2022-04-08T06:04:07",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "01a3093587b7246ce6272d7122d9847860d43e7b"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmAdmin.yml",
+                "commit_date": "2022-02-15T07:38:06",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "4833ed712db09bd9f7f9a4e2af7cf782b14fed51"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmAdmin.yml",
+                "commit_date": "2021-12-14T09:56:20",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "534f29c79e2e1e75d143f3ea59ae884b5d406287"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmAdmin.yml",
+                "commit_date": "2021-12-10T14:00:06",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "94beb049c86792501d657d7153e12d20b11ac410"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmAdmin.yml",
+                "commit_date": "2021-12-09T23:08:05",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "8821a5df9e9697d3c365d97ee8347ad2fe4dd699"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmAdmin.yml",
+                "commit_date": "2021-12-06T02:00:43",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "10cb618f4d003d1b653e8ceca75f4f37d889e587"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmAdmin.yml",
+                "commit_date": "2021-12-03T06:38:17",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "442c3c05f4e5c020336feb59c057fd984e607560"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmAdmin.yml",
+                "commit_date": "2021-11-25T13:57:30",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "7936809f182197ccff70f49b8f85214fd2ca5edb"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmAdmin.yml",
+                "commit_date": "2021-11-10T09:32:05",
+                "status": "added",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "89a49339217888c647d68dce8a5a523fcf096c67"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithDependencyCreation.yml",
+                "commit_date": "2022-12-22T16:02:03",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "16b4b41ea928e2b3ecb30fbb89661f755ceab48a"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithDependencyCreation.yml",
+                "commit_date": "2022-10-24T01:25:10",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "da4f69329ce548933ab81a8f11cf24dabceab6e7"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithDependencyCreation.yml",
+                "commit_date": "2022-07-26T05:49:50",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "7958f54c5ecc24f6e22f1bb82536d7221f49ac42"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithDependencyCreation.yml",
+                "commit_date": "2022-07-21T20:24:49",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "ba21828f3087565c9ca9aa995a7d2ccc55818960"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithDependencyCreation.yml",
+                "commit_date": "2022-07-08T02:39:30",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "a2c53cf7571fab1391682b5c516edc27bbec57bf"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithDependencyCreation.yml",
+                "commit_date": "2022-06-14T07:33:05",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "71c0afabb530adfab1647319850f48a52e25698a"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithDependencyCreation.yml",
+                "commit_date": "2022-04-22T21:06:07",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "6f2ece3496e80fddb3263caca0ec519d701228fe"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithDependencyCreation.yml",
+                "commit_date": "2021-12-06T02:00:43",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "10cb618f4d003d1b653e8ceca75f4f37d889e587"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithDependencyCreation.yml",
+                "commit_date": "2021-12-01T03:04:18",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "b0f91b23ab9c6e3dfabbed35a92a683977cbfe55"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithDependencyCreation.yml",
+                "commit_date": "2021-11-29T06:49:13",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "8805cae915db6196bcc4a342646906620b3a291f"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithDependencyCreation.yml",
+                "commit_date": "2021-11-17T01:34:32",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "eeca70d5d83f54415e0dc36dcaf6edf16ae4e3ff"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithDependencyCreation.yml",
+                "commit_date": "2021-11-15T02:06:30",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "c633b30ad02d650a5e3e745442fa3406b0d0b81b"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithDependencyCreation.yml",
+                "commit_date": "2021-11-10T21:52:17",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "a2d5a928c25a8553ade74c8f0b5b425b872805d4"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithDependencyCreation.yml",
+                "commit_date": "2021-11-04T06:01:23",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "ed802ea837a93d4604735384e1cc0e5e381ba6c5"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithDependencyCreation.yml",
+                "commit_date": "2021-11-04T01:50:32",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "cf79725da07da7d637abd02a406e6e8e69e15f03"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithDependencyCreation.yml",
+                "commit_date": "2021-11-03T16:40:26",
+                "status": "added",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "c4b0550f8970238b34dd35caceda08630510f6cd"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2022-10-24T01:25:10",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "da4f69329ce548933ab81a8f11cf24dabceab6e7"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2022-07-15T08:25:41",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "4fcb0180f299bcaa7fdbfaf8dcb2ec29dd4cdd4e"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2022-06-17T05:15:01",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "99d38bfda23d2633dee17f639c821ed8de4305e9"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2022-06-17T04:46:35",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "62df71d39ecceebee0dd8620056032ff2ec5c6ac"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2022-04-26T15:34:45",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "9825926e59c9c89ac3389b500b3bc7191d509816"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2022-04-22T21:06:07",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "6f2ece3496e80fddb3263caca0ec519d701228fe"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2022-04-08T06:04:07",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "01a3093587b7246ce6272d7122d9847860d43e7b"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2022-02-15T07:38:06",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "4833ed712db09bd9f7f9a4e2af7cf782b14fed51"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2022-01-20T05:10:01",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "311f9c1d40ed052b4f4071c2f3491b51c94273e9"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2021-12-14T09:56:20",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "534f29c79e2e1e75d143f3ea59ae884b5d406287"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2021-12-10T14:00:06",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "94beb049c86792501d657d7153e12d20b11ac410"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2021-12-10T00:41:44",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "8cf792af5e7c96fd77c9fd29cba8b70b01ae160d"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2021-12-09T23:08:05",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "8821a5df9e9697d3c365d97ee8347ad2fe4dd699"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2021-12-06T02:00:43",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "10cb618f4d003d1b653e8ceca75f4f37d889e587"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2021-12-03T06:38:17",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "442c3c05f4e5c020336feb59c057fd984e607560"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2021-11-25T13:57:30",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "7936809f182197ccff70f49b8f85214fd2ca5edb"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2021-11-10T09:38:01",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "d57f6c0d13f0e0f9bba6ea6c58a4c86792d86935"
+            },
+            {
+                "file_name": ".github/workflows/testWlsVmCluster.yml",
+                "commit_date": "2021-11-10T09:33:45",
+                "status": "added",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "ff8bcf0def1f485a3fdcbdca48f3848ded363be5"
+            },
+            {
+                "file_name": ".github/workflows/newtag.yml",
+                "commit_date": "2022-12-05T15:25:10",
+                "status": "modified",
+                "first_commit": "2021-12-09T22:58:50",
+                "last_commit": "2022-12-05T15:25:10",
+                "CI_type": "GHA",
+                "sha": "1caf5a3c4162ca7d0c0fade0240fdcd476aaf6a5"
+            },
+            {
+                "file_name": ".github/workflows/newtag.yml",
+                "commit_date": "2022-10-24T01:25:10",
+                "status": "modified",
+                "first_commit": "2021-12-09T22:58:50",
+                "last_commit": "2022-12-05T15:25:10",
+                "CI_type": "GHA",
+                "sha": "da4f69329ce548933ab81a8f11cf24dabceab6e7"
+            },
+            {
+                "file_name": ".github/workflows/newtag.yml",
+                "commit_date": "2022-06-17T06:00:50",
+                "status": "modified",
+                "first_commit": "2021-12-09T22:58:50",
+                "last_commit": "2022-12-05T15:25:10",
+                "CI_type": "GHA",
+                "sha": "b48751ed699bd0cf30d5a967ac041ff4167ce607"
+            },
+            {
+                "file_name": ".github/workflows/newtag.yml",
+                "commit_date": "2022-06-17T05:15:01",
+                "status": "modified",
+                "first_commit": "2021-12-09T22:58:50",
+                "last_commit": "2022-12-05T15:25:10",
+                "CI_type": "GHA",
+                "sha": "99d38bfda23d2633dee17f639c821ed8de4305e9"
+            },
+            {
+                "file_name": ".github/workflows/newtag.yml",
+                "commit_date": "2022-06-08T19:23:55",
+                "status": "modified",
+                "first_commit": "2021-12-09T22:58:50",
+                "last_commit": "2022-12-05T15:25:10",
+                "CI_type": "GHA",
+                "sha": "ca4e3b2bbd4e26c8fc51201b8f2e04a6610905d2"
+            },
+            {
+                "file_name": ".github/workflows/newtag.yml",
+                "commit_date": "2022-05-27T00:43:39",
+                "status": "modified",
+                "first_commit": "2021-12-09T22:58:50",
+                "last_commit": "2022-12-05T15:25:10",
+                "CI_type": "GHA",
+                "sha": "d2c505c554a928605b4ca30aea1947175dc122db"
+            },
+            {
+                "file_name": ".github/workflows/newtag.yml",
+                "commit_date": "2022-05-27T00:16:59",
+                "status": "modified",
+                "first_commit": "2021-12-09T22:58:50",
+                "last_commit": "2022-12-05T15:25:10",
+                "CI_type": "GHA",
+                "sha": "9bd4dd6c3f7b9312f6a152db510146fde5b174dd"
+            },
+            {
+                "file_name": ".github/workflows/newtag.yml",
+                "commit_date": "2022-05-26T02:40:39",
+                "status": "modified",
+                "first_commit": "2021-12-09T22:58:50",
+                "last_commit": "2022-12-05T15:25:10",
+                "CI_type": "GHA",
+                "sha": "0e7ec27b9dfeec989279d2534ad3d83a4e43c85c"
+            },
+            {
+                "file_name": ".github/workflows/newtag.yml",
+                "commit_date": "2022-04-08T06:04:07",
+                "status": "modified",
+                "first_commit": "2021-12-09T22:58:50",
+                "last_commit": "2022-12-05T15:25:10",
+                "CI_type": "GHA",
+                "sha": "01a3093587b7246ce6272d7122d9847860d43e7b"
+            },
+            {
+                "file_name": ".github/workflows/newtag.yml",
+                "commit_date": "2021-12-13T23:27:55",
+                "status": "modified",
+                "first_commit": "2021-12-09T22:58:50",
+                "last_commit": "2022-12-05T15:25:10",
+                "CI_type": "GHA",
+                "sha": "fde64f514ef22a44ea30f73063b70271f2b8e6d7"
+            },
+            {
+                "file_name": ".github/workflows/newtag.yml",
+                "commit_date": "2021-12-13T23:20:26",
+                "status": "modified",
+                "first_commit": "2021-12-09T22:58:50",
+                "last_commit": "2022-12-05T15:25:10",
+                "CI_type": "GHA",
+                "sha": "6d76ffc6b0b8f4db70d7839eee9690ccd022990c"
+            },
+            {
+                "file_name": ".github/workflows/newtag.yml",
+                "commit_date": "2021-12-10T00:38:25",
+                "status": "modified",
+                "first_commit": "2021-12-09T22:58:50",
+                "last_commit": "2022-12-05T15:25:10",
+                "CI_type": "GHA",
+                "sha": "135d8023fcfb593040d445d054e3c267d0c33c53"
+            },
+            {
+                "file_name": ".github/workflows/newtag.yml",
+                "commit_date": "2021-12-10T00:33:46",
+                "status": "modified",
+                "first_commit": "2021-12-09T22:58:50",
+                "last_commit": "2022-12-05T15:25:10",
+                "CI_type": "GHA",
+                "sha": "cd3122f0f25dd2646404197b9a7cf788033d66ec"
+            },
+            {
+                "file_name": ".github/workflows/newtag.yml",
+                "commit_date": "2021-12-09T22:58:50",
+                "status": "renamed",
+                "first_commit": "2021-12-09T22:58:50",
+                "last_commit": "2022-12-05T15:25:10",
+                "CI_type": "GHA",
+                "sha": "1c25e75f4b3a975e599fa989c3b4083f95d72744"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4SnArtifact.yml",
+                "commit_date": "2022-10-24T01:25:10",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:35:44",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "da4f69329ce548933ab81a8f11cf24dabceab6e7"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4SnArtifact.yml",
+                "commit_date": "2022-07-15T08:25:41",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:35:44",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "4fcb0180f299bcaa7fdbfaf8dcb2ec29dd4cdd4e"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4SnArtifact.yml",
+                "commit_date": "2022-06-17T05:15:01",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:35:44",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "99d38bfda23d2633dee17f639c821ed8de4305e9"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4SnArtifact.yml",
+                "commit_date": "2022-04-27T02:18:33",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:35:44",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "ae35f05667a6f3926397e15d5fed7ffd5a4286f9"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4SnArtifact.yml",
+                "commit_date": "2022-04-26T15:34:45",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:35:44",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "9825926e59c9c89ac3389b500b3bc7191d509816"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4SnArtifact.yml",
+                "commit_date": "2022-04-22T21:11:21",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:35:44",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "499cbcf7da318dd8458d76afef202bfc86b72d15"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4SnArtifact.yml",
+                "commit_date": "2022-04-22T21:06:07",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:35:44",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "6f2ece3496e80fddb3263caca0ec519d701228fe"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4SnArtifact.yml",
+                "commit_date": "2021-12-22T15:20:24",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:35:44",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "2c4e9900132266ed1f52fbf9fbadb35aff44a7e2"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4SnArtifact.yml",
+                "commit_date": "2022-04-08T06:04:07",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:35:44",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "01a3093587b7246ce6272d7122d9847860d43e7b"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4SnArtifact.yml",
+                "commit_date": "2021-12-06T02:00:43",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:35:44",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "10cb618f4d003d1b653e8ceca75f4f37d889e587"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4SnArtifact.yml",
+                "commit_date": "2021-12-03T06:38:17",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:35:44",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "442c3c05f4e5c020336feb59c057fd984e607560"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4SnArtifact.yml",
+                "commit_date": "2021-11-10T09:35:44",
+                "status": "added",
+                "first_commit": "2021-11-10T09:35:44",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "4d251483626ec19fe9d4cb8792f852a585113f8f"
+            },
+            {
+                "file_name": "weblogic-azure-vm/arm-oraclelinux-wls-admin/.github/workflows/build.yml",
+                "commit_date": "2021-11-10T10:15:22",
+                "status": "removed",
+                "first_commit": "2021-08-30T09:57:33",
+                "last_commit": "2021-11-10T10:15:22",
+                "CI_type": "GHA",
+                "sha": "fe7c34c47a996ef839936c86bb92f0df785f744d"
+            },
+            {
+                "file_name": "weblogic-azure-vm/arm-oraclelinux-wls-admin/.github/workflows/build.yml",
+                "commit_date": "2021-10-07T09:10:25",
+                "status": "modified",
+                "first_commit": "2021-08-30T09:57:33",
+                "last_commit": "2021-11-10T10:15:22",
+                "CI_type": "GHA",
+                "sha": "365d2890f1ad26eecc8b627c0053d611ab6e1cbe"
+            },
+            {
+                "file_name": "weblogic-azure-vm/arm-oraclelinux-wls-admin/.github/workflows/build.yml",
+                "commit_date": "2021-08-30T09:57:33",
+                "status": "added",
+                "first_commit": "2021-08-30T09:57:33",
+                "last_commit": "2021-11-10T10:15:22",
+                "CI_type": "GHA",
+                "sha": "16d371010cfe95d3e7e1b92c18ae01cb79703327"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4DcArtifact.yml",
+                "commit_date": "2022-10-24T01:25:10",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "da4f69329ce548933ab81a8f11cf24dabceab6e7"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4DcArtifact.yml",
+                "commit_date": "2022-07-15T08:25:41",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "4fcb0180f299bcaa7fdbfaf8dcb2ec29dd4cdd4e"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4DcArtifact.yml",
+                "commit_date": "2022-06-17T05:15:01",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "99d38bfda23d2633dee17f639c821ed8de4305e9"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4DcArtifact.yml",
+                "commit_date": "2022-04-27T02:18:33",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "ae35f05667a6f3926397e15d5fed7ffd5a4286f9"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4DcArtifact.yml",
+                "commit_date": "2022-04-26T15:34:45",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "9825926e59c9c89ac3389b500b3bc7191d509816"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4DcArtifact.yml",
+                "commit_date": "2022-04-22T21:11:21",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "499cbcf7da318dd8458d76afef202bfc86b72d15"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4DcArtifact.yml",
+                "commit_date": "2022-04-22T21:06:07",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "6f2ece3496e80fddb3263caca0ec519d701228fe"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4DcArtifact.yml",
+                "commit_date": "2022-04-08T06:04:07",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "01a3093587b7246ce6272d7122d9847860d43e7b"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4DcArtifact.yml",
+                "commit_date": "2021-12-06T02:00:43",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "10cb618f4d003d1b653e8ceca75f4f37d889e587"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4DcArtifact.yml",
+                "commit_date": "2021-12-03T06:38:17",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "442c3c05f4e5c020336feb59c057fd984e607560"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4DcArtifact.yml",
+                "commit_date": "2021-11-10T09:34:49",
+                "status": "added",
+                "first_commit": "2021-11-10T09:34:49",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "2239a892eb7eb9c55b492644867ea2f1c93b6930"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4CcArtifact.yml",
+                "commit_date": "2022-10-24T01:25:10",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "da4f69329ce548933ab81a8f11cf24dabceab6e7"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4CcArtifact.yml",
+                "commit_date": "2022-07-15T08:25:41",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "4fcb0180f299bcaa7fdbfaf8dcb2ec29dd4cdd4e"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4CcArtifact.yml",
+                "commit_date": "2022-06-17T05:15:01",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "99d38bfda23d2633dee17f639c821ed8de4305e9"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4CcArtifact.yml",
+                "commit_date": "2022-04-27T02:18:33",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "ae35f05667a6f3926397e15d5fed7ffd5a4286f9"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4CcArtifact.yml",
+                "commit_date": "2022-04-26T15:34:45",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "9825926e59c9c89ac3389b500b3bc7191d509816"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4CcArtifact.yml",
+                "commit_date": "2022-04-22T21:11:21",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "499cbcf7da318dd8458d76afef202bfc86b72d15"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4CcArtifact.yml",
+                "commit_date": "2022-04-22T21:06:07",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "6f2ece3496e80fddb3263caca0ec519d701228fe"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4CcArtifact.yml",
+                "commit_date": "2022-04-08T06:04:07",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "01a3093587b7246ce6272d7122d9847860d43e7b"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4CcArtifact.yml",
+                "commit_date": "2021-12-06T02:00:43",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "10cb618f4d003d1b653e8ceca75f4f37d889e587"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4CcArtifact.yml",
+                "commit_date": "2021-12-03T06:38:17",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "442c3c05f4e5c020336feb59c057fd984e607560"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4CcArtifact.yml",
+                "commit_date": "2021-11-10T09:33:45",
+                "status": "added",
+                "first_commit": "2021-11-10T09:33:45",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "ff8bcf0def1f485a3fdcbdca48f3848ded363be5"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2022-12-22T16:02:03",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "16b4b41ea928e2b3ecb30fbb89661f755ceab48a"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2022-10-24T01:25:10",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "da4f69329ce548933ab81a8f11cf24dabceab6e7"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2022-07-26T05:49:50",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "7958f54c5ecc24f6e22f1bb82536d7221f49ac42"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2022-07-21T20:24:49",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "ba21828f3087565c9ca9aa995a7d2ccc55818960"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2022-07-08T02:39:30",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "a2c53cf7571fab1391682b5c516edc27bbec57bf"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2022-06-14T07:33:05",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "71c0afabb530adfab1647319850f48a52e25698a"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2022-04-22T21:06:07",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "6f2ece3496e80fddb3263caca0ec519d701228fe"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2021-12-06T02:00:43",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "10cb618f4d003d1b653e8ceca75f4f37d889e587"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2021-12-01T03:04:18",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "b0f91b23ab9c6e3dfabbed35a92a683977cbfe55"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2021-11-29T06:49:13",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "8805cae915db6196bcc4a342646906620b3a291f"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2021-11-17T01:34:32",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "eeca70d5d83f54415e0dc36dcaf6edf16ae4e3ff"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2021-11-15T02:06:30",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "c633b30ad02d650a5e3e745442fa3406b0d0b81b"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2021-11-10T21:52:17",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "a2d5a928c25a8553ade74c8f0b5b425b872805d4"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2021-11-04T06:01:23",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "ed802ea837a93d4604735384e1cc0e5e381ba6c5"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2021-11-04T01:50:32",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "cf79725da07da7d637abd02a406e6e8e69e15f03"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2021-10-27T02:40:33",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "5b54d00b729e772a6383f71155f7978344bb792c"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2021-11-03T16:42:18",
+                "status": "modified",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "cf7b4f78322f77d3e048e571027d9b890fa7bb7d"
+            },
+            {
+                "file_name": ".github/workflows/testWlsAksWithoutDependencyCreation.yml",
+                "commit_date": "2021-11-03T16:40:26",
+                "status": "added",
+                "first_commit": "2021-11-03T16:40:26",
+                "last_commit": "2022-12-22T16:02:03",
+                "CI_type": "GHA",
+                "sha": "c4b0550f8970238b34dd35caceda08630510f6cd"
+            },
+            {
+                "file_name": ".github/workflows/setupWlsAksDependency.yml",
+                "commit_date": "2021-11-10T21:52:17",
+                "status": "modified",
+                "first_commit": "2021-10-27T02:40:33",
+                "last_commit": "2021-11-10T21:52:17",
+                "CI_type": "GHA",
+                "sha": "a2d5a928c25a8553ade74c8f0b5b425b872805d4"
+            },
+            {
+                "file_name": ".github/workflows/setupWlsAksDependency.yml",
+                "commit_date": "2021-11-04T06:01:23",
+                "status": "modified",
+                "first_commit": "2021-10-27T02:40:33",
+                "last_commit": "2021-11-10T21:52:17",
+                "CI_type": "GHA",
+                "sha": "ed802ea837a93d4604735384e1cc0e5e381ba6c5"
+            },
+            {
+                "file_name": ".github/workflows/setupWlsAksDependency.yml",
+                "commit_date": "2021-11-04T01:50:32",
+                "status": "modified",
+                "first_commit": "2021-10-27T02:40:33",
+                "last_commit": "2021-11-10T21:52:17",
+                "CI_type": "GHA",
+                "sha": "cf79725da07da7d637abd02a406e6e8e69e15f03"
+            },
+            {
+                "file_name": ".github/workflows/setupWlsAksDependency.yml",
+                "commit_date": "2021-11-03T15:58:25",
+                "status": "modified",
+                "first_commit": "2021-10-27T02:40:33",
+                "last_commit": "2021-11-10T21:52:17",
+                "CI_type": "GHA",
+                "sha": "6b394f4a364b9c2bd80e70e060cbafa63124f8f7"
+            },
+            {
+                "file_name": ".github/workflows/setupWlsAksDependency.yml",
+                "commit_date": "2021-10-27T02:40:33",
+                "status": "added",
+                "first_commit": "2021-10-27T02:40:33",
+                "last_commit": "2021-11-10T21:52:17",
+                "CI_type": "GHA",
+                "sha": "5b54d00b729e772a6383f71155f7978344bb792c"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4AsArtifact.yml",
+                "commit_date": "2022-10-24T01:25:10",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "da4f69329ce548933ab81a8f11cf24dabceab6e7"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4AsArtifact.yml",
+                "commit_date": "2022-06-17T05:15:01",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "99d38bfda23d2633dee17f639c821ed8de4305e9"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4AsArtifact.yml",
+                "commit_date": "2022-04-27T02:18:33",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "ae35f05667a6f3926397e15d5fed7ffd5a4286f9"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4AsArtifact.yml",
+                "commit_date": "2022-05-27T00:16:59",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "9bd4dd6c3f7b9312f6a152db510146fde5b174dd"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4AsArtifact.yml",
+                "commit_date": "2022-05-26T02:40:39",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "0e7ec27b9dfeec989279d2534ad3d83a4e43c85c"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4AsArtifact.yml",
+                "commit_date": "2022-04-26T15:34:45",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "9825926e59c9c89ac3389b500b3bc7191d509816"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4AsArtifact.yml",
+                "commit_date": "2022-04-22T21:11:21",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "499cbcf7da318dd8458d76afef202bfc86b72d15"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4AsArtifact.yml",
+                "commit_date": "2022-04-22T21:06:07",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "6f2ece3496e80fddb3263caca0ec519d701228fe"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4AsArtifact.yml",
+                "commit_date": "2022-04-08T06:04:07",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "01a3093587b7246ce6272d7122d9847860d43e7b"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4AsArtifact.yml",
+                "commit_date": "2021-12-06T02:00:43",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "10cb618f4d003d1b653e8ceca75f4f37d889e587"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4AsArtifact.yml",
+                "commit_date": "2021-12-03T06:38:17",
+                "status": "modified",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "442c3c05f4e5c020336feb59c057fd984e607560"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsVm4AsArtifact.yml",
+                "commit_date": "2021-11-10T09:32:05",
+                "status": "added",
+                "first_commit": "2021-11-10T09:32:05",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "89a49339217888c647d68dce8a5a523fcf096c67"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsAksArtifact.yml",
+                "commit_date": "2022-10-24T01:25:10",
+                "status": "modified",
+                "first_commit": "2021-10-21T02:27:59",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "da4f69329ce548933ab81a8f11cf24dabceab6e7"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsAksArtifact.yml",
+                "commit_date": "2022-07-26T05:49:50",
+                "status": "modified",
+                "first_commit": "2021-10-21T02:27:59",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "7958f54c5ecc24f6e22f1bb82536d7221f49ac42"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsAksArtifact.yml",
+                "commit_date": "2022-07-21T20:24:49",
+                "status": "modified",
+                "first_commit": "2021-10-21T02:27:59",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "ba21828f3087565c9ca9aa995a7d2ccc55818960"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsAksArtifact.yml",
+                "commit_date": "2022-07-08T02:39:30",
+                "status": "modified",
+                "first_commit": "2021-10-21T02:27:59",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "a2c53cf7571fab1391682b5c516edc27bbec57bf"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsAksArtifact.yml",
+                "commit_date": "2022-06-17T05:15:01",
+                "status": "modified",
+                "first_commit": "2021-10-21T02:27:59",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "99d38bfda23d2633dee17f639c821ed8de4305e9"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsAksArtifact.yml",
+                "commit_date": "2022-06-10T22:47:43",
+                "status": "modified",
+                "first_commit": "2021-10-21T02:27:59",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "8d080d973da6aae0a221375be4591168ecb92b30"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsAksArtifact.yml",
+                "commit_date": "2021-12-06T02:00:43",
+                "status": "modified",
+                "first_commit": "2021-10-21T02:27:59",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "10cb618f4d003d1b653e8ceca75f4f37d889e587"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsAksArtifact.yml",
+                "commit_date": "2021-11-18T04:03:27",
+                "status": "modified",
+                "first_commit": "2021-10-21T02:27:59",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "3a24332312fc62be52f9c4fa611d82afd52c66c4"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsAksArtifact.yml",
+                "commit_date": "2021-11-15T02:06:30",
+                "status": "modified",
+                "first_commit": "2021-10-21T02:27:59",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "c633b30ad02d650a5e3e745442fa3406b0d0b81b"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsAksArtifact.yml",
+                "commit_date": "2021-11-10T21:52:17",
+                "status": "modified",
+                "first_commit": "2021-10-21T02:27:59",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "a2d5a928c25a8553ade74c8f0b5b425b872805d4"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsAksArtifact.yml",
+                "commit_date": "2021-11-04T01:50:32",
+                "status": "modified",
+                "first_commit": "2021-10-21T02:27:59",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "cf79725da07da7d637abd02a406e6e8e69e15f03"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsAksArtifact.yml",
+                "commit_date": "2021-10-27T02:40:33",
+                "status": "modified",
+                "first_commit": "2021-10-21T02:27:59",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "5b54d00b729e772a6383f71155f7978344bb792c"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsAksArtifact.yml",
+                "commit_date": "2021-11-01T02:57:16",
+                "status": "modified",
+                "first_commit": "2021-10-21T02:27:59",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "be5dfc9ad6d34499778dc53a2f7e6d1c80445a00"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsAksArtifact.yml",
+                "commit_date": "2021-10-22T21:49:54",
+                "status": "modified",
+                "first_commit": "2021-10-21T02:27:59",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "8c7aa038299c9a3a98086064aa7c1bfed1f13cbc"
+            },
+            {
+                "file_name": ".github/workflows/buildWlsAksArtifact.yml",
+                "commit_date": "2021-10-21T02:27:59",
+                "status": "added",
+                "first_commit": "2021-10-21T02:27:59",
+                "last_commit": "2022-10-24T01:25:10",
+                "CI_type": "GHA",
+                "sha": "ac2e7e71700a67e00f90b5bb09b9876a44d229db"
+            }
+        ]
+    },
+    {
+        "Travis": []
+    },
+    {
+        "CircleCI": []
+    },
+    {
+        "AppVeyor": []
+    },
+    {
+        "Azure": []
+    },
+    {
+        "GitLab": []
+    },
+    {
+        "Jenkins": []
+    }
+]

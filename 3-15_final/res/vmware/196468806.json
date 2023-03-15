@@ -1,0 +1,258 @@
+{
+    "id": 196468806,
+    "name": "terraform-provider-avi",
+    "full_name": "vmware/terraform-provider-avi",
+    "org_name": "VMware",
+    "org_id": 473334,
+    "created_at": "2019-07-11T21:44:18",
+    "pushed_at": "2023-03-14T08:54:21",
+    "updated_at": "2023-03-02T08:14:27",
+    "isFork": false,
+    "forks": 28,
+    "forks_count": 28,
+    "has_downloads": true,
+    "has_issues": true,
+    "has_pages": false,
+    "has_projects": false,
+    "has_wiki": false,
+    "homepage": "https://registry.terraform.io/providers/vmware/avi/latest/docs",
+    "language": "Go",
+    "open_issues": 8,
+    "open_issues_count": 8,
+    "size": 16434,
+    "stargazers_count": 28,
+    "subscribers_count": 15,
+    "watchers": 28,
+    "watchers_count": 28,
+    "first_commit": "2022-04-29T11:17:24",
+    "last_commit": "2023-02-21T13:16:31",
+    "branches_count": 98,
+    "commit_comments_count": 2,
+    "commits_count": 621,
+    "countributors_count": 24,
+    "downloads_count": 0,
+    "events_count": 121,
+    "issues_count": 8,
+    "labels_count": 31,
+    "milestones_count": 0,
+    "PR_count": 497,
+    "open_PR_count": 2,
+    "readme_size": 4716,
+    "release_count": 25,
+    "topic_count": 3,
+    "15_commits": 0,
+    "16_commits": 0,
+    "17_commits": 11,
+    "18_commits": 120,
+    "19_commits": 87,
+    "20_commits": 124,
+    "21_commits": 153,
+    "22_commits": 121,
+    "15_committer_num": 0,
+    "16_committer_num": 0,
+    "17_committer_num": 3,
+    "18_committer_num": 8,
+    "19_committer_num": 10,
+    "20_committer_num": 12,
+    "21_committer_num": 5,
+    "22_committer_num": 2
+}{
+    "stargazer_date": {
+        "3850623": "2020-02-25T19:20:07",
+        "146306": "2020-04-14T08:23:01",
+        "10160626": "2020-07-21T20:06:51",
+        "7698573": "2021-01-19T02:36:33",
+        "17595622": "2021-02-10T22:14:21",
+        "30051813": "2021-05-13T20:57:59",
+        "205220": "2021-05-18T07:43:16",
+        "33768444": "2021-06-05T11:52:14",
+        "16012615": "2021-06-10T20:06:53",
+        "7771363": "2021-07-22T03:11:18",
+        "300815": "2021-09-20T15:47:05",
+        "45018840": "2021-11-04T16:38:24",
+        "487634": "2021-11-11T21:19:20",
+        "31742059": "2021-11-11T23:30:11",
+        "29118782": "2021-11-12T12:58:16",
+        "67389359": "2022-02-03T19:41:49",
+        "65479334": "2022-03-18T13:33:15",
+        "11394388": "2022-04-16T01:58:40",
+        "63932503": "2022-05-05T05:23:20",
+        "290927": "2022-07-26T23:40:26",
+        "56997877": "2022-07-29T14:01:18",
+        "110446595": "2022-08-18T06:52:52",
+        "117248136": "2022-11-13T03:26:54",
+        "47654753": "2022-12-06T07:55:18",
+        "7665359": "2023-02-24T09:38:32",
+        "22728755": "2023-02-25T17:43:53",
+        "66257570": "2023-02-26T04:23:59",
+        "32060464": "2023-03-02T08:14:27"
+    }
+}[
+    {
+        "GHA": [
+            {
+                "file_name": ".github/workflows/release.yml",
+                "commit_date": "2022-09-13T04:14:37",
+                "status": "modified",
+                "first_commit": "2021-02-02T05:03:28",
+                "last_commit": "2022-09-13T04:14:37",
+                "CI_type": "GHA",
+                "sha": "b3d3651099522d70836eda9c0eb48ca06021d57a"
+            },
+            {
+                "file_name": ".github/workflows/release.yml",
+                "commit_date": "2022-04-29T09:28:55",
+                "status": "modified",
+                "first_commit": "2021-02-02T05:03:28",
+                "last_commit": "2022-09-13T04:14:37",
+                "CI_type": "GHA",
+                "sha": "ceedd4a403c53ba364f19b02e4d2463d162ff912"
+            },
+            {
+                "file_name": ".github/workflows/release.yml",
+                "commit_date": "2022-04-29T09:05:50",
+                "status": "modified",
+                "first_commit": "2021-02-02T05:03:28",
+                "last_commit": "2022-09-13T04:14:37",
+                "CI_type": "GHA",
+                "sha": "7dcc8d777afa86dc9bacf5857323ddfb846d9d08"
+            },
+            {
+                "file_name": ".github/workflows/release.yml",
+                "commit_date": "2021-02-02T05:03:28",
+                "status": "added",
+                "first_commit": "2021-02-02T05:03:28",
+                "last_commit": "2022-09-13T04:14:37",
+                "CI_type": "GHA",
+                "sha": "718132e2e2c58bdf5fc84574e078f0b8e74834ab"
+            },
+            {
+                "file_name": ".github/workflows/golangci-lint.yml",
+                "commit_date": "2022-09-13T04:14:37",
+                "status": "modified",
+                "first_commit": "2021-02-02T05:03:28",
+                "last_commit": "2022-09-13T04:14:37",
+                "CI_type": "GHA",
+                "sha": "b3d3651099522d70836eda9c0eb48ca06021d57a"
+            },
+            {
+                "file_name": ".github/workflows/golangci-lint.yml",
+                "commit_date": "2022-04-29T09:28:55",
+                "status": "modified",
+                "first_commit": "2021-02-02T05:03:28",
+                "last_commit": "2022-09-13T04:14:37",
+                "CI_type": "GHA",
+                "sha": "ceedd4a403c53ba364f19b02e4d2463d162ff912"
+            },
+            {
+                "file_name": ".github/workflows/golangci-lint.yml",
+                "commit_date": "2022-04-29T09:05:50",
+                "status": "modified",
+                "first_commit": "2021-02-02T05:03:28",
+                "last_commit": "2022-09-13T04:14:37",
+                "CI_type": "GHA",
+                "sha": "7dcc8d777afa86dc9bacf5857323ddfb846d9d08"
+            },
+            {
+                "file_name": ".github/workflows/golangci-lint.yml",
+                "commit_date": "2021-02-02T05:03:28",
+                "status": "added",
+                "first_commit": "2021-02-02T05:03:28",
+                "last_commit": "2022-09-13T04:14:37",
+                "CI_type": "GHA",
+                "sha": "718132e2e2c58bdf5fc84574e078f0b8e74834ab"
+            }
+        ]
+    },
+    {
+        "Travis": [
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2021-09-23T11:03:03",
+                "status": "removed",
+                "first_commit": "2018-04-06T17:21:32",
+                "last_commit": "2021-09-23T11:03:03",
+                "CI_type": "Travis",
+                "sha": "5929724e281d5e1b0f3137275f4e9cee3e4eeac0"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-09-02T15:41:45",
+                "status": "modified",
+                "first_commit": "2018-04-06T17:21:32",
+                "last_commit": "2021-09-23T11:03:03",
+                "CI_type": "Travis",
+                "sha": "d446d63a3fe7edec719d18de6408943b8aec6c9b"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-04-03T03:41:50",
+                "status": "modified",
+                "first_commit": "2018-04-06T17:21:32",
+                "last_commit": "2021-09-23T11:03:03",
+                "CI_type": "Travis",
+                "sha": "19c9c7a6de52b4ea690c682d027974ec971ab41a"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-01-29T14:57:38",
+                "status": "modified",
+                "first_commit": "2018-04-06T17:21:32",
+                "last_commit": "2021-09-23T11:03:03",
+                "CI_type": "Travis",
+                "sha": "3e2d3ff4a84f90601ecde0335f55a599039e4215"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2020-01-17T05:20:40",
+                "status": "modified",
+                "first_commit": "2018-04-06T17:21:32",
+                "last_commit": "2021-09-23T11:03:03",
+                "CI_type": "Travis",
+                "sha": "7e67534e10fcf376196bd22ead32f5e59200b10d"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2019-07-09T15:37:47",
+                "status": "modified",
+                "first_commit": "2018-04-06T17:21:32",
+                "last_commit": "2021-09-23T11:03:03",
+                "CI_type": "Travis",
+                "sha": "b49d10284c33784584f0ba7d1088fe5f201f1a72"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2019-05-09T13:00:01",
+                "status": "modified",
+                "first_commit": "2018-04-06T17:21:32",
+                "last_commit": "2021-09-23T11:03:03",
+                "CI_type": "Travis",
+                "sha": "993b812bc146a05ac6761c459435e5e35eb2b0a2"
+            },
+            {
+                "file_name": "/.travis.yml",
+                "commit_date": "2018-04-06T17:21:32",
+                "status": "added",
+                "first_commit": "2018-04-06T17:21:32",
+                "last_commit": "2021-09-23T11:03:03",
+                "CI_type": "Travis",
+                "sha": "70b6576c8e194651107b28a37700b0a76d3a86c2"
+            }
+        ]
+    },
+    {
+        "CircleCI": []
+    },
+    {
+        "AppVeyor": []
+    },
+    {
+        "Azure": []
+    },
+    {
+        "GitLab": []
+    },
+    {
+        "Jenkins": []
+    }
+]

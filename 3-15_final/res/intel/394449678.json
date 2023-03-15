@@ -1,0 +1,801 @@
+{
+    "id": 394449678,
+    "name": "mlir-extensions",
+    "full_name": "intel/mlir-extensions",
+    "org_name": "Intel Corporation",
+    "org_id": 17888862,
+    "created_at": "2021-08-09T21:57:01",
+    "pushed_at": "2023-03-09T00:29:10",
+    "updated_at": "2023-02-19T05:52:55",
+    "isFork": false,
+    "forks": 20,
+    "forks_count": 20,
+    "has_downloads": true,
+    "has_issues": true,
+    "has_pages": false,
+    "has_projects": true,
+    "has_wiki": true,
+    "homepage": "",
+    "language": "MLIR",
+    "open_issues": 52,
+    "open_issues_count": 52,
+    "size": 4300,
+    "stargazers_count": 50,
+    "subscribers_count": 12,
+    "watchers": 50,
+    "watchers_count": 50,
+    "first_commit": "2022-08-01T14:45:05",
+    "last_commit": "2023-03-09T00:29:10",
+    "branches_count": 13,
+    "commit_comments_count": 2,
+    "commits_count": 1078,
+    "countributors_count": 12,
+    "downloads_count": 0,
+    "events_count": 300,
+    "issues_count": 52,
+    "labels_count": 14,
+    "milestones_count": 1,
+    "PR_count": 577,
+    "open_PR_count": 7,
+    "readme_size": 8251,
+    "release_count": 1,
+    "topic_count": 0,
+    "15_commits": 0,
+    "16_commits": 0,
+    "17_commits": 0,
+    "18_commits": 0,
+    "19_commits": 0,
+    "20_commits": 32,
+    "21_commits": 746,
+    "22_commits": 271,
+    "15_committer_num": 0,
+    "16_committer_num": 0,
+    "17_committer_num": 0,
+    "18_committer_num": 0,
+    "19_committer_num": 0,
+    "20_committer_num": 1,
+    "21_committer_num": 5,
+    "22_committer_num": 9
+}{
+    "stargazer_date": {
+        "90601266": "2021-09-15T06:28:40",
+        "14920956": "2021-11-09T08:21:27",
+        "3883941": "2021-11-13T11:05:54",
+        "54985569": "2021-11-17T14:40:55",
+        "14894391": "2021-11-28T11:58:51",
+        "18322401": "2021-11-29T14:07:18",
+        "6487326": "2021-12-16T10:51:35",
+        "17939938": "2021-12-29T07:00:03",
+        "3885044": "2021-12-31T19:59:43",
+        "128885": "2022-01-01T08:48:16",
+        "1404191": "2022-01-05T21:36:23",
+        "68101902": "2022-01-19T01:41:07",
+        "3046810": "2022-01-19T22:28:23",
+        "1379149": "2022-02-07T17:13:48",
+        "15092561": "2022-02-08T15:11:51",
+        "98356296": "2022-02-16T20:04:38",
+        "167209": "2022-03-13T10:54:40",
+        "5974551": "2022-04-02T21:45:40",
+        "5669412": "2022-04-27T16:35:54",
+        "963815": "2022-05-24T01:53:48",
+        "37500013": "2022-05-31T16:39:48",
+        "6247665": "2022-06-03T01:28:33",
+        "107426817": "2022-06-16T16:58:51",
+        "79236274": "2022-06-22T08:34:53",
+        "187848": "2022-06-25T17:15:21",
+        "12274992": "2022-07-12T01:50:28",
+        "6548783": "2022-08-18T11:30:36",
+        "94199174": "2022-08-27T08:17:10",
+        "6129707": "2022-08-30T13:37:44",
+        "32806348": "2022-09-10T00:09:10",
+        "22304502": "2022-09-14T03:00:54",
+        "829678": "2022-09-21T13:05:56",
+        "13588285": "2022-09-29T09:56:53",
+        "12398321": "2022-10-05T14:33:25",
+        "45833444": "2022-10-08T19:52:21",
+        "52772496": "2022-10-19T06:44:40",
+        "5133557": "2022-10-25T10:25:11",
+        "23415818": "2022-10-26T09:26:15",
+        "1874053": "2022-10-30T17:57:38",
+        "6252072": "2022-11-19T21:03:14",
+        "17902704": "2022-11-21T03:21:35",
+        "178424": "2023-01-18T12:48:22",
+        "19940939": "2023-01-20T00:53:55",
+        "6426433": "2023-01-24T16:17:17",
+        "605795": "2023-01-24T18:05:42",
+        "1321397": "2023-01-25T16:51:23",
+        "19415821": "2023-01-30T13:24:10",
+        "18298452": "2023-01-31T01:44:03",
+        "13822753": "2023-02-19T05:52:55"
+    }
+}[
+    {
+        "GHA": [
+            {
+                "file_name": ".github/workflows/pre-commit.yml",
+                "commit_date": "2022-06-17T00:47:35",
+                "status": "added",
+                "first_commit": "2022-06-17T00:47:35",
+                "last_commit": "2022-06-17T00:47:35",
+                "CI_type": "GHA",
+                "sha": "c85f1866fc26ef5dd3e8d7d4caa52ec9e56b4e07"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-11-01T01:07:32",
+                "status": "modified",
+                "first_commit": "2022-05-21T20:24:49",
+                "last_commit": "2022-11-01T01:07:32",
+                "CI_type": "GHA",
+                "sha": "a1c8eab588fb7c8c38175cbebdeff75334d70f5d"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-08-24T08:00:47",
+                "status": "modified",
+                "first_commit": "2022-05-21T20:24:49",
+                "last_commit": "2022-11-01T01:07:32",
+                "CI_type": "GHA",
+                "sha": "fdd860f08fd4618ecf4b71f23463d6273aa415d5"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-08-04T07:33:39",
+                "status": "modified",
+                "first_commit": "2022-05-21T20:24:49",
+                "last_commit": "2022-11-01T01:07:32",
+                "CI_type": "GHA",
+                "sha": "43e023ed745a506e648d399482d93841f2c0ca78"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-08-01T14:45:05",
+                "status": "modified",
+                "first_commit": "2022-05-21T20:24:49",
+                "last_commit": "2022-11-01T01:07:32",
+                "CI_type": "GHA",
+                "sha": "00fd5503b7f5a9b54d64926c062e7823a124db35"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-08-01T13:01:01",
+                "status": "modified",
+                "first_commit": "2022-05-21T20:24:49",
+                "last_commit": "2022-11-01T01:07:32",
+                "CI_type": "GHA",
+                "sha": "27f525f24c84667454684e106cd0f4ddc4ed9db7"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-06-25T03:52:34",
+                "status": "modified",
+                "first_commit": "2022-05-21T20:24:49",
+                "last_commit": "2022-11-01T01:07:32",
+                "CI_type": "GHA",
+                "sha": "3d5ce470d0ee6f6fbf85dab36dd5e63d0a76fdf5"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-06-25T01:17:37",
+                "status": "modified",
+                "first_commit": "2022-05-21T20:24:49",
+                "last_commit": "2022-11-01T01:07:32",
+                "CI_type": "GHA",
+                "sha": "e66d9041bdfbaa519ff6e4767a1afe28593dfd5e"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-06-25T00:58:05",
+                "status": "modified",
+                "first_commit": "2022-05-21T20:24:49",
+                "last_commit": "2022-11-01T01:07:32",
+                "CI_type": "GHA",
+                "sha": "b8d79ddb0130385cfda9f4886b0fc8ee4162a8ff"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-06-24T23:18:13",
+                "status": "modified",
+                "first_commit": "2022-05-21T20:24:49",
+                "last_commit": "2022-11-01T01:07:32",
+                "CI_type": "GHA",
+                "sha": "26fc892e2d38eb3632ca7ce246540d4d1dedd9e3"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-06-17T13:05:05",
+                "status": "modified",
+                "first_commit": "2022-05-21T20:24:49",
+                "last_commit": "2022-11-01T01:07:32",
+                "CI_type": "GHA",
+                "sha": "f78a76854226a52ec750344aa5f262f37dd07b12"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-06-17T13:01:29",
+                "status": "modified",
+                "first_commit": "2022-05-21T20:24:49",
+                "last_commit": "2022-11-01T01:07:32",
+                "CI_type": "GHA",
+                "sha": "0f8ca1580c0b9eb05096bfb9652d41abc757f6b1"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-06-17T02:05:08",
+                "status": "modified",
+                "first_commit": "2022-05-21T20:24:49",
+                "last_commit": "2022-11-01T01:07:32",
+                "CI_type": "GHA",
+                "sha": "2efa60819c601471ac17eee156585a85d9e259b4"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-06-03T20:48:16",
+                "status": "modified",
+                "first_commit": "2022-05-21T20:24:49",
+                "last_commit": "2022-11-01T01:07:32",
+                "CI_type": "GHA",
+                "sha": "e4d97d36af88e15f9ff16f720bf3a1fd05d162c2"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-06-01T00:26:02",
+                "status": "modified",
+                "first_commit": "2022-05-21T20:24:49",
+                "last_commit": "2022-11-01T01:07:32",
+                "CI_type": "GHA",
+                "sha": "43f105b0c8d4f71f3470a1a7f0ee173425c8af3f"
+            },
+            {
+                "file_name": ".github/workflows/build.yml",
+                "commit_date": "2022-05-21T20:24:49",
+                "status": "added",
+                "first_commit": "2022-05-21T20:24:49",
+                "last_commit": "2022-11-01T01:07:32",
+                "CI_type": "GHA",
+                "sha": "758d089f16b5ffd1b2ea28a551968cd6296f93cb"
+            }
+        ]
+    },
+    {
+        "Travis": []
+    },
+    {
+        "CircleCI": []
+    },
+    {
+        "AppVeyor": []
+    },
+    {
+        "Azure": [
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2022-06-15T15:18:19",
+                "status": "removed",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "00e9c6cddcdce364c4d14cc5f92b2a4e3b9e3641"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2022-05-11T00:46:24",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "4083c7491581e890a7cd7b7089335759ab1cbcec"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2022-03-28T09:44:49",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "18d5b1f7abec61ae010089a2f9236c02d0b3bc09"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2022-03-21T08:55:43",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "30921326bb73964d693e6467d96189c979d5da3f"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2022-03-21T08:05:44",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "431e6ae28f709428698aaf11fd6ee33cc682cf70"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2022-03-20T15:38:11",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "23e9b88925eef4d098db8d733d5d30c08cdf1cdf"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2022-03-19T20:12:40",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "f348c1ee1384ea738e8fac222371ab4d2d2ba40a"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2022-03-18T19:12:53",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "58a125c0e37c5fa29282ef768e932c9388346de1"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2022-03-18T14:57:12",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "1903cb569058682ee5d94d0e065470f396fb7019"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2022-02-14T11:25:34",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "25a1c2b4c00d511d0af4534c97a60af5c01c4fe9"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2022-02-11T12:34:09",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "d54e97277ddb6f294c70f332170efb69428dfe7f"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2022-01-19T15:42:28",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "fb5cb57176648bb09fc80abde5fd1a415fe0fe04"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-12-23T15:19:50",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "16f2a157d479e959dcd76428b1407a678abdff3f"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-11-25T11:33:12",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "39aecb5e99b05da67a16a75090cfac2347a95884"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-10-02T14:44:01",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "16c238f129ef69ebcd780eeb8545dfcba6b429db"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-09-30T12:09:18",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "f2ecafa35eaf0c4db8c51568cc719c45ce62c2ef"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-09-27T16:28:46",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "3b16cd91e16a53ea12514cdef437bea2eb525df1"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-09-22T14:51:04",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "6f812b6e6d1327e23c60fbe49dcfeb4a7e91d07e"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-09-20T11:48:23",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "1c41c64c4946a4d9975d7ff3a284e96ed44a7da2"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-07-14T18:07:16",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "1341c0d7d6f52d32351255f1028aeac6407f5058"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-07-14T16:07:31",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "9b2c8fdff60d07f3bd6b03766260b75c69c7cdb8"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-07-14T14:41:54",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "d3e1c6a38bee3213f534dc6f913e31f1a1034d20"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-23T14:00:51",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "a25b0125586c78a6ace7feaea223bb2ace599339"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-23T14:00:51",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "9f4c9c59e92ef606585d33c69801ad0adf61dae1"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-23T14:00:51",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "3b0ede7caab3e7e79371add6985e1153fa078dcc"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-23T14:00:51",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "10f53147483d91e5e403bffeb8ad7955ff0366c9"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-23T14:00:51",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "ddf48494c93cd706a1e1cf4f69e0ab4e84ac3b0d"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-23T14:00:51",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "aaa13c755bfcfbd66b0663d8ef81b007eec46d34"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-23T14:00:51",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "5751acee60a1247de974d1bc6980adc72fdf92ea"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-23T14:00:51",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "b582fe7f29f58a7e05eded32786fbe5ad671c8a5"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-23T14:00:51",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "f21a493ca7f7b3a1b33fd83e885b4d2278bc86e2"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-23T14:00:51",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "2a1b1f6d098e869a1b2ec22cca555943c2a27b8b"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-23T14:00:51",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "c9784938d9f2b7e89e4f38267f107d5201f5efc8"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-07-01T12:06:53",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "650bfa93b93b23d3d37d50cc50f591636285e3f9"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-15T21:04:27",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "3ee68ebef246e603f565c28e7691378b50754f7d"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-08T13:13:22",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "19046e7f39e591c4103e1d45411e82a5b49fb991"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-07T15:13:21",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "a8ea65bdfdff5f8e244e01a0f61b67a80fd534a1"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-03T12:32:38",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "25ba3febe55692ea28913dffba0dcfef5da3f54c"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-03T10:33:34",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "833b5ca82872c32e79b3996f8d4397b16290251f"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-01T14:00:57",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "2dff44088737d4b9dade6f6aa4b1aa458dda8ea0"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-01T11:47:55",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "98463dace22bf3b8c986026796f97efd1a2cdd20"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-01T11:21:13",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "04a3600c63db519638cc06d94e194eafa7009393"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-01T10:25:18",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "b71bd0b43d6a544a1e85b81275705e84fede6309"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-06-01T09:12:43",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "29fb6ef17a75ce220180cc3763f0eb9bce75412b"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-05-10T20:19:24",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "6adecbcebe05cca62b15a2a99cf46a4ae60ded8b"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-04-22T10:16:29",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "9a692bd014b87b2ef7256ea78504642e99d2b305"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-03-31T06:37:25",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "7a1579f7f66915dd4bebcc45daee39893b711a21"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-03-30T10:28:57",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "822781204de7ebebadcf906a08a40e300a257259"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-03-26T19:14:57",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "717b771d58bc22264792e264048f0ae0a52ad6c8"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-03-26T16:43:14",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "4cf388c8ba6a741fd0c30e3f6c1af9bb60476d7d"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-03-26T12:14:36",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "2dd88725d24fd2020bdcd4ff7ce141acc6435474"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-03-26T11:50:50",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "42062f035fb6f6ef0aee68f2c4b26e3ca7573a35"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-03-26T11:35:30",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "8163479a7f2f3b8e4a8342ecb62ccec6a48b9406"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-03-24T17:30:01",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "1db933f789b575b2d797916611887ada7e7c04f1"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-03-19T19:57:26",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "a610439b6c0efb8a32eb36b490e037919cd927c2"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-03-17T21:35:38",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "aacbc4844b470d06b89c11b1cb2589b10779c3e8"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-03-17T20:56:44",
+                "status": "modified",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "324b4fbe5f750f041891add54dd0e62c595fc2ba"
+            },
+            {
+                "file_name": "/azure-pipelines.yml",
+                "commit_date": "2021-03-17T19:25:55",
+                "status": "added",
+                "first_commit": "2021-03-17T19:25:55",
+                "last_commit": "2022-06-15T15:18:19",
+                "CI_type": "Azure",
+                "sha": "3dbc9c4e26ba8242dec64b764f78bc8052fe70f6"
+            }
+        ]
+    },
+    {
+        "GitLab": []
+    },
+    {
+        "Jenkins": []
+    }
+]
